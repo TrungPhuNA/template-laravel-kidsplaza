@@ -43,6 +43,8 @@ mix.sass('resources/sass/pages/category/category.scss', 'public/css/pages/catego
 mix.sass('resources/sass/pages/product_detail/product-detail.scss', 'public/css/pages/product-detail');
 mix.sass('resources/sass/pages/product_detail/product-des.scss', 'public/css/pages/product-detail');
 
+mix.sass('resources/sass/pages/customer/orders.scss', 'public/css/pages/customer/orders');
+
 
 mix.sass('resources/sass/abstracts/_variableweb.scss', 'public/css/abstracts');
 

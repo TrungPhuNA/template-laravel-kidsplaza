@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!-- OwlCarousel JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    @yield('style')
 </head>
 
 <body>
@@ -29,6 +30,8 @@
         @endif
         @if(Route::currentRouteNamed('cart'))
             @include('components/navbar',['page'=>'cart'])
+        @else
+            @include('components/navbar',['page'=>''])
         @endif
         <main class="bg-cF pt-4 ">
             @yield('content')

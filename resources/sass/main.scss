@@ -81,6 +81,11 @@ a {
     background-color: #f2f2f7;
 }
 
+.bg-gray-d6 {
+    background-color: #D6D7E2;
+}
+
+
 .shadow00 {
     box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
         rgba(0, 0, 0, 0.24) 0px 2px 8px;
@@ -171,6 +176,10 @@ a {
 
 .w-fit-content {
     width: fit-content;
+}
+
+.h-fit-content {
+    height: fit-content;
 }
 
 .cup {

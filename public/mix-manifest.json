@@ -11,6 +11,7 @@
     "/css/components/product-promotional.css": "/css/components/product-promotional.css",
     "/css/components/navbar.css": "/css/components/navbar.css",
     "/css/abstracts/_variableweb.css": "/css/abstracts/_variableweb.css",
+    "/css/pages/customer/orders/orders.css": "/css/pages/customer/orders/orders.css",
     "/css/pages/product-detail/product-des.css": "/css/pages/product-detail/product-des.css",
     "/css/pages/product-detail/product-detail.css": "/css/pages/product-detail/product-detail.css",
     "/css/pages/category/category.css": "/css/pages/category/category.css",
