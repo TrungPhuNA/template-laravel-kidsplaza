@@ -1,0 +1,31 @@
+.footer .footer-top-col-one ul {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 2.2;
+}
+.footer .footer-top-col-one ul li {
+  font-size: 13.5px;
+}
+.footer .footer-top-col-two ul,
+.footer .footer-top-col-three ul {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 2.2;
+}
+.footer .footer-top-col-two ul li,
+.footer .footer-top-col-three ul li {
+  font-size: 13.5px;
+}
+.footer .footer-top-col-four .new_gift input {
+  width: 75%;
+  background-color: #E5E5E5;
+}
+.footer .footer-top-col-four .new_gift button {
+  background-color: #F46538;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-top-col-four {
+    padding-top: 0 !important;
+  }
+}

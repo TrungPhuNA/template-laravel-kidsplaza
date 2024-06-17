@@ -1,0 +1,502 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+$primary-color: #204099;
+$prigba-color: rgba(255, 215, 68, 0.5);
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Begin Class riêng */
+.bg-bule204 {
+    background-color: $primary-color;
+}
+
+.text-bule204 {
+    color: $primary-color;
+}
+
+.text-gray-rgb1 {
+    color: rgb(199 199 204);
+}
+
+.bg-gray-rgb1 {
+    background-color: rgb(199 199 204);
+}
+
+.bg-orange-fbb {
+    background-color: #fb8136 !important;
+}
+
+.border-bule204 {
+    border: 1px solid #204099;
+}
+
+.bg-prigba {
+    background-color: $prigba-color;
+}
+
+.bg-blue-d1 {
+    background-color: #d1eefd;
+}
+
+.text-prigba {
+    color: $prigba-color;
+}
+
+.text-gray-f2 {
+    color: #2c2c581a;
+}
+
+.bg-cF {
+    background-color: #f4f7ff;
+}
+
+.bg-yellow-ff {
+    background-color: #ffefbc;
+}
+
+.bg-yellow-f1d {
+    background-color: #fff1d3;
+}
+
+.bg-rose-fe {
+    background-color: #fed2cf;
+}
+
+.bg-blue-b6 {
+    background-color: #b6e9f9;
+}
+
+.bg-blue-61 {
+    background-color: #61cef5;
+}
+
+.bg-green-c8 {
+    background-color: #c8ece3;
+}
+
+.bg-gray-f2 {
+    background-color: #f2f2f7;
+}
+
+.shadow00 {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000,
+        rgba(0, 0, 0, 0.24) 0px 2px 8px;
+}
+
+.z-99 {
+    z-index: 99;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.text-bule204-hover:hover {
+    color: $primary-color !important;
+}
+
+.text-oragne {
+    color: #fb8136bc !important;
+}
+
+.text-oragne-hover:hover {
+    color: #fb8136bc !important;
+}
+
+.bg-bule204-hover:hover {
+    background-color: $primary-color !important;
+    color: white !important;
+}
+
+.text-bule23{
+    color: #23c4f4;
+}
+
+.bg-bule23-hover:hover {
+    background-color: #23c4f4;
+}
+
+.bg-yellowff-hover:hover {
+    background-color: #ffcc33 !important;
+}
+
+.text-white-hover:hover {
+    color: white !important;
+}
+
+.fw-bold-hover:hover {
+    font-weight: bold;
+}
+
+/* End Class riêng */
+
+.header-top {
+    font-size: 12px;
+}
+
+.section-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.box-p {
+    padding: 1.5rem;
+}
+
+.box-m-top-bottom {
+    margin: 1rem 0;
+}
+
+.box-m-top-bottom {
+    margin: 1.5rem 0;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.cup {
+    cursor: pointer;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 23%;
+}
+
+// Mobile first
+@media only screen and (max-width: 576px) {
+    .d-xs-none {
+        display: none;
+    }
+    .ps-xs-0 {
+        padding-left: 0px !important;
+    }
+
+    .p-xs-0 {
+        padding: 0 !important;
+    }
+
+    .p-xs-2 {
+        padding: 0.5rem !important;
+    }
+
+    .mt-xs-0 {
+        margin-top: 0 !important;
+    }
+
+    .gap-xs-0 {
+        gap: 0 !important;
+    }
+
+    .fs-xs-12px {
+        font-size: 12px !important;
+    }
+
+    .fs-xs-7 {
+        font-size: 0.85rem;
+    }
+
+    /* Các thuộc tính CSS cho hệ thống lưới trong Bootstrap dành cho xs */
+
+    .col-xs {
+        flex: 1 0 0%;
+    }
+
+    .row-cols-xs-auto > * {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .row-cols-xs-1 > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .row-cols-xs-2 > * {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .row-cols-xs-3 > * {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+
+    .row-cols-xs-4 > * {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .row-cols-xs-5 > * {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+    .row-cols-xs-6 > * {
+        flex: 0 0 auto;
+        width: 16.6666666667%;
+    }
+
+    .col-xs-auto {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .col-xs-1 {
+        flex: 0 0 auto;
+        width: 8.33333333%;
+    }
+
+    .col-xs-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .col-xs-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-xs-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .col-xs-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
+    .col-xs-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-xs-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .col-xs-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .col-xs-9 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    .col-xs-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+    }
+
+    .col-xs-11 {
+        flex: 0 0 auto;
+        width: 91.66666667%;
+    }
+
+    .col-xs-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .offset-xs-0 {
+        margin-left: 0;
+    }
+
+    .offset-xs-1 {
+        margin-left: 8.33333333%;
+    }
+
+    .offset-xs-2 {
+        margin-left: 16.66666667%;
+    }
+
+    .offset-xs-3 {
+        margin-left: 25%;
+    }
+
+    .offset-xs-4 {
+        margin-left: 33.33333333%;
+    }
+
+    .offset-xs-5 {
+        margin-left: 41.66666667%;
+    }
+
+    .offset-xs-6 {
+        margin-left: 50%;
+    }
+
+    .offset-xs-7 {
+        margin-left: 58.33333333%;
+    }
+
+    .offset-xs-8 {
+        margin-left: 66.66666667%;
+    }
+
+    .offset-xs-9 {
+        margin-left: 75%;
+    }
+
+    .offset-xs-10 {
+        margin-left: 83.33333333%;
+    }
+
+    .offset-xs-11 {
+        margin-left: 91.66666667%;
+    }
+
+    .g-xs-0,
+    .gx-xs-0 {
+        --bs-gutter-x: 0;
+    }
+
+    .g-xs-0,
+    .gy-xs-0 {
+        --bs-gutter-y: 0;
+    }
+
+    .g-xs-1,
+    .gx-xs-1 {
+        --bs-gutter-x: 0.25rem;
+    }
+
+    .g-xs-1,
+    .gy-xs-1 {
+        --bs-gutter-y: 0.25rem;
+    }
+
+    .g-xs-2,
+    .gx-xs-2 {
+        --bs-gutter-x: 0.5rem;
+    }
+
+    .g-xs-2,
+    .gy-xs-2 {
+        --bs-gutter-y: 0.5rem;
+    }
+
+    .g-xs-3,
+    .gx-xs-3 {
+        --bs-gutter-x: 1rem;
+    }
+
+    .g-xs-3,
+    .gy-xs-3 {
+        --bs-gutter-y: 1rem;
+    }
+
+    .g-xs-4,
+    .gx-xs-4 {
+        --bs-gutter-x: 1.5rem;
+    }
+
+    .g-xs-4,
+    .gy-xs-4 {
+        --bs-gutter-y: 1.5rem;
+    }
+
+    .g-xs-5,
+    .gx-xs-5 {
+        --bs-gutter-x: 3rem;
+    }
+
+    .g-xs-5,
+    .gy-xs-5 {
+        --bs-gutter-y: 3rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .d-lg-none-y {
+        display: none !important;
+    }
+}
+
+// Tablet first
+@media only screen and (min-width: 770px) {
+    .d-md-none-y {
+        display: none;
+    }
+
+    .header-top {
+        font-size: 10px;
+    }
+
+    .w-md-80 {
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .d-md-none-x {
+        display: none;
+    }
+
+    .box-p {
+        padding: 1rem !important;
+    }
+}
+
+// Desktop first
+@media only screen and (min-width: 992px) {
+    .col-lg-3-y {
+        flex: 0 0 auto;
+        width: 31.5%;
+    }
+
+    .h-lg-200 {
+        height: 200px;
+    }
+
+    .w-lg-60 {
+        width: 60% !important;
+    }
+
+    .w-lg-80 {
+        width: 80% !important;
+    }
+
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 40%;
+    }
+
+    .col-lg-20 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-5 {
+        flex: 0 0 auto;
+        width: 40%;
+    }
+    .col-xl-20 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}

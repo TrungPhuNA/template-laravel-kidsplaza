@@ -1,0 +1,16 @@
+.category-list-product-owl-carousel .owl-nav button {
+  position: absolute;
+  top: 40%;
+}
+.category-list-product-owl-carousel .owl-nav button:nth-child(1) {
+  left: -1%;
+}
+.category-list-product-owl-carousel .owl-nav button:nth-child(2) {
+  right: -2%;
+}
+
+@media only screen and (max-width: 576px) {
+  .products-just-for-you {
+    background-color: white !important;
+  }
+}

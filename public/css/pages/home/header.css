@@ -1,0 +1,92 @@
+.header-col-left ul {
+  list-style: none;
+  line-height: 2.1;
+  padding-left: 0;
+}
+.header-col-left ul li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.header-col-left ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-col-center .lower-bar .lower-bar-item > div:nth-child(1) {
+  border: 1px solid #dee2e6;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+}
+.header-col-center .lower-bar .lower-bar-item > div:nth-child(2) {
+  font-size: 14px;
+}
+
+.header-col-right {
+  background-color: #dcf1fd;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(1) {
+  font-size: 0.6rem;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(1) p:nth-child(2) {
+  font-size: 0.5rem;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(2) {
+  text-align: center;
+  margin-top: 5px;
+}
+.header-col-right .header-col-right-welcome > div:nth-child(2) button {
+  width: 45%;
+  margin: 0 3px;
+  color: #204099;
+  border: 1px solid #204099;
+  font-size: 12px;
+  font-weight: 500;
+}
+.header-col-right .header-col-right-check > div div {
+  font-size: 0.55rem;
+}
+.header-col-right .header-col-right-mxh div div {
+  font-size: 11px;
+}
+
+.header-center-owl-carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+}
+.header-center-owl-carousel .owl-nav button:nth-child(1) {
+  left: 3%;
+}
+.header-center-owl-carousel .owl-nav button:nth-child(2) {
+  right: 3%;
+}
+
+.header-conven-owl-carousel .owl-nav button {
+  position: absolute;
+  top: 40%;
+}
+.header-conven-owl-carousel .owl-nav button:nth-child(1) {
+  left: 1%;
+}
+.header-conven-owl-carousel .owl-nav button:nth-child(2) {
+  right: 1%;
+}
+
+@media (max-width: 576px) {
+  .header-col-center .lower-bar {
+    background-color: transparent !important;
+  }
+  .header-col-center .lower-bar .lower-bar-item > div:nth-child(1) {
+    border: none;
+  }
+  .header-col-center .lower-bar .lower-bar-item > div:nth-child(2) {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 1274px) {
+  .header-col-right {
+    display: none;
+  }
+}

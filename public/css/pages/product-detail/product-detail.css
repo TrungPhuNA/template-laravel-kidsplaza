@@ -1,0 +1,8 @@
+.product-detail-col-right .benefits-list {
+  padding-left: 0;
+  list-style: none;
+  line-height: 3;
+}
+.product-detail-col-right .benefits-list li {
+  font-size: 14px;
+}

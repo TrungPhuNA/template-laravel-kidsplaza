@@ -1,0 +1,104 @@
+.modal-header {
+    .modal-product {
+        .modal-product-left {
+            width: 20%;
+        }
+        .modal-product-right {
+            width: 80%;
+            .modal-product-right-sub {
+                font-size: 14.5px;
+            }
+            .modal-product-right-reivew {
+                font-size: 13.5px;
+            }
+            .modal-product-right-price {
+                font-size: 2.2rem;
+                color: rgb(255 113 50);
+            }
+            .modal-product-right-button {
+                button {
+                    font-size: 18px;
+                    padding: 10px 20px;
+                }
+                > button:nth-child(1) {
+                    background-color: rgb(255 113 50);
+                    border: none;
+                    color: white;
+                }
+                > button:nth-child(2) {
+                    border: 2px solid #204099;
+                    background: transparent;
+                    color: #204099;
+                }
+            }
+        }
+    }
+}
+.modal-body {
+    .modal-product {
+        .modal-product-right {
+            .modal-product-right-sub {
+                font-size: 14.5px;
+            }
+            .modal-product-right-reivew {
+                font-size: 13.5px;
+            }
+            .modal-product-right-price {
+                font-size: 2.2rem;
+                color: rgb(255 113 50);
+            }
+            .modal-product-right-button {
+                button {
+                    font-size: 18px;
+                    padding: 10px 20px;
+                }
+                > button:nth-child(1) {
+                    background-color: rgb(255 113 50);
+                    border: none;
+                    color: white;
+                }
+                > button:nth-child(2) {
+                    border: 2px solid #204099;
+                    background: transparent;
+                    color: #204099;
+                }
+            }
+        }
+    }
+}
+
+.modal-product-des {
+    height: 550px;
+}
+
+.modal-product-more {
+    .modal-product-more-bg {
+        width: 100%;
+        padding: 20px 0;
+        top: -3rem;
+        background: linear-gradient(
+            360deg,
+            rgb(255, 255, 255) 43.57%,
+            rgba(255, 255, 255, 0) 103.88%,
+            rgba(255, 255, 255, 0) 146.21%,
+            rgba(255, 255, 255, 0.72) 146.21%,
+            rgba(255, 255, 255, 0) 146.21%
+        );
+    }
+}
+
+@media (max-width: 1027px) {
+    .modal-product-right {
+        .modal-product-right-title {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (min-width: 1027px) {
+    .modal-product-right {
+        .modal-product-right-title {
+            font-size: 2rem;
+        }
+    }
+}
