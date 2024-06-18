@@ -5,20 +5,7 @@ var __webpack_exports__ = {};
   \*************************************/
 $(document).ready(function () {
   var windowSize = $(window).width();
-  if (windowSize < 765) {
-    $('.lower-bar').removeClass('header-conven-owl-carousel owl-carousel owl-theme');
-    $('.lower-bar-item').addClass('col-xs-2 col-sm-2');
-  } else {
-    setTimeout(function () {
-      $('.lower-bar').find('.owl-item')[0].remove();
-      $('.lower-bar').find('.owl-item').each(function () {
-        if (!$(this).hasClass('owl-item')) {
-          $(this).remove();
-        }
-      });
-    }, 100);
-    $('.lower-bar-item').removeClass('col-xs-2 col-sm-2');
-    $('.lower-bar').addClass('header-conven-owl-carousel owl-carousel owl-theme');
+  function initializeCarousel() {
     $('.header-conven-owl-carousel').owlCarousel({
       loop: false,
       items: 7,
@@ -28,11 +15,25 @@ $(document).ready(function () {
       navText: ["<i class=\"bi bi-chevron-left\"></i>", "<i class=\"bi bi-chevron-right\"></i>"]
     });
   }
-
-  // Laays du lieu tu localstorage
-  var user = JSON.parse(localStorage.getItem('user'));
-  console.log('--- DATA ---', user);
-  if (user) {
+  function handleSmallScreen() {
+    $('.lower-bar').removeClass('header-conven-owl-carousel owl-carousel owl-theme');
+    $('.lower-bar-item').addClass('col-xs-2 col-sm-2');
+  }
+  function handleLargeScreen() {
+    setTimeout(function () {
+      $('.lower-bar .owl-item').not('.owl-item').remove();
+      $('.lower-bar .owl-item:first').remove();
+    }, 100);
+    $('.lower-bar-item').removeClass('col-xs-2 col-sm-2');
+    $('.lower-bar').addClass('header-conven-owl-carousel owl-carousel owl-theme');
+    initializeCarousel();
+  }
+  if (windowSize < 765) {
+    handleSmallScreen();
+  } else {
+    handleLargeScreen();
+  }
+  function updateUserInterface(user) {
     $('.header-button').addClass('d-none');
     $('.header-welcome').empty().append($('<div>', {
       "class": 'row align-items-center'
@@ -71,6 +72,10 @@ $(document).ready(function () {
       "class": 'text-bule204',
       style: 'font-size:11px;'
     }).html('Sản phẩm đã xem'))));
+  }
+  var user = JSON.parse(localStorage.getItem('user'));
+  if (user) {
+    updateUserInterface(user);
   }
 });
 /******/ })()

@@ -6,18 +6,14 @@ use Illuminate\View\Component;
 
 class formInfo extends Component
 {
-    public $name;
-    public $isModal;
     public $idModal;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($name, $isModal = '0', $idModal = '')
+    public function __construct($idModal = '')
     {
-        $this->name = $name;
-        $this->isModal = $isModal;
         $this->idModal = $idModal;
     }
 

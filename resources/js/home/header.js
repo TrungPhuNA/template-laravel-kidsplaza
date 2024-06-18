@@ -1,37 +1,43 @@
 $(document).ready(function () {
     var windowSize = $(window).width();
-
-    if (windowSize < 765) {
-        $('.lower-bar').removeClass('header-conven-owl-carousel owl-carousel owl-theme');
-        $('.lower-bar-item').addClass('col-xs-2 col-sm-2');
-    } else {
-        setTimeout(function () {
-            $('.lower-bar').find('.owl-item')[0].remove()
-            $('.lower-bar').find('.owl-item').each(function () {
-                if (!$(this).hasClass('owl-item')) {
-                    $(this).remove();
-                }
-            });
-        }, 100);
-        $('.lower-bar-item').removeClass('col-xs-2 col-sm-2');
-        $('.lower-bar').addClass('header-conven-owl-carousel owl-carousel owl-theme');
+    
+    function initializeCarousel() {
         $('.header-conven-owl-carousel').owlCarousel({
             loop: false,
             items: 7,
             margin: 10,
             nav: true,
             dots: false,
-            navText: [`<i class="bi bi-chevron-left"></i>`,
+            navText: [
+                `<i class="bi bi-chevron-left"></i>`,
                 `<i class="bi bi-chevron-right"></i>`
-            ],
+            ]
         });
     }
 
-    // Laays du lieu tu localstorage
-    var user = JSON.parse(localStorage.getItem('user'));
-    console.log('--- DATA ---', user);
+    function handleSmallScreen() {
+        $('.lower-bar').removeClass('header-conven-owl-carousel owl-carousel owl-theme');
+        $('.lower-bar-item').addClass('col-xs-2 col-sm-2');
+    }
 
-    if (user) {
+    function handleLargeScreen() {
+        setTimeout(function () {
+            $('.lower-bar .owl-item').not('.owl-item').remove();
+            $('.lower-bar .owl-item:first').remove();
+        }, 100);
+
+        $('.lower-bar-item').removeClass('col-xs-2 col-sm-2');
+        $('.lower-bar').addClass('header-conven-owl-carousel owl-carousel owl-theme');
+        initializeCarousel();
+    }
+
+    if (windowSize < 765) {
+        handleSmallScreen();
+    } else {
+        handleLargeScreen();
+    }
+
+    function updateUserInterface(user) {
         $('.header-button').addClass('d-none');
         $('.header-welcome').empty().append(
             $('<div>', { class: 'row align-items-center' }).append(
@@ -59,6 +65,10 @@ $(document).ready(function () {
                 )
             )
         );
+    }
 
+    var user = JSON.parse(localStorage.getItem('user'));
+    if (user) {
+        updateUserInterface(user);
     }
 });

@@ -1,18 +1,13 @@
-<div>
+<section class="section-wrapper">
     <div class="d-md-none-x">
         <div class="d-flex flex-wrap gap-3 box-m-top-bottom">
             @foreach(
-            ['Khoảng giá','Dung tích','Độ tuổi','Màu sắc',
-            'Xuất xứ', 'Thương hiệu', 'Khối lượng','Kích thước']
-            as $key => $propertie
+                $data_static['propertie_categroy']
+                as $key => $item
             )
-            <div class="w-fit-content cup bg-yellowff-hover gap-3 d-flex justify-content-center align-items-center bg-white rounded-5 py-2 px-3 text-bule204">
-                <div>{{ $propertie }}</div>
-                <div>
-                    <i class="bi bi-chevron-down"></i>
-                </div>
-            </div>
+                <x-dropdown :name=" $item['propertie_name'] "  :data=" $item['propertie_detal'] "/>
             @endforeach
+            
         </div>
     </div>
     <div class="box-m-top-bottom box-p bg-white rounded-4">
@@ -50,4 +45,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

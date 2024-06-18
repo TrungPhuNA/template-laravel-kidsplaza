@@ -1,0 +1,32 @@
+#loading-bar {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background-color: #204099;
+  border-radius: 5px;
+}
+#loading-bar .loading-bar-start, #loading-bar .loading-bar-end {
+  position: absolute;
+  padding: 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #204099;
+  transition: width 1s ease;
+}
+#loading-bar .loading-bar-start {
+  left: 0;
+  top: -0.6rem;
+}
+#loading-bar .loading-bar-end {
+  right: 0;
+  top: -0.6rem;
+}
+#loading-bar #progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: width 1s ease;
+}

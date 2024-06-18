@@ -1,5 +1,3 @@
-<link href="{{ asset('css/components/footer.css') }}" rel="stylesheet">
-
 <footer class="d-xs-none">
     <div>
         <img src="{{ asset('images/banner/banner-footer.png') }}" width="100%" alt="">

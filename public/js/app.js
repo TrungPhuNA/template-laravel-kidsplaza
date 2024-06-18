@@ -2060,324 +2060,40 @@ module.exports = {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
-function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
-function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
-function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-$('.header-center-owl-carousel').owlCarousel({
-  loop: true,
-  items: 1,
-  margin: 10,
-  nav: true,
-  dots: false,
-  navText: ["\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-left\"></i>\n        </div>\n        ", "\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-right\"></i>\n        </div>    \n            "]
-});
-$('.service-banner-owl-carousel').owlCarousel({
-  loop: true,
-  items: 3,
-  center: true,
-  margin: 15,
-  nav: true,
-  dots: false,
-  navText: ["\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-left\"></i>\n        </div>\n        ", "\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-right\"></i>\n        </div>    \n            "],
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 2
-    },
-    1000: {
-      items: 3
-    }
-  }
-});
-$('.outstan-brand-owl-carousel').owlCarousel(_defineProperty({
-  loop: false,
-  items: 2,
-  dots: false,
-  autoWidth: true,
-  margin: 35,
-  nav: false
-}, "dots", false));
-$('.banner-home-owl-carousel').owlCarousel({
-  loop: true,
-  items: 1,
-  margin: 10,
-  nav: true,
-  dots: false,
-  navText: ["\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-left\"></i>\n        </div>\n        ", "\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-right\"></i>\n        </div>    \n            "]
-});
-$('.frame-product-layout-owl-carousel').owlCarousel({
-  loop: true,
-  items: 7,
-  margin: 45,
-  nav: false,
-  dots: false,
-  responsive: {
-    0: {
-      items: 4
-    },
-    600: {
-      items: 5
-    },
-    1000: {
-      items: 7
-    }
-  }
-});
-$('.useful-information-owl-carousel').owlCarousel({
-  loop: true,
-  items: 4,
-  margin: 20,
-  nav: true,
-  dots: false,
-  navText: ["\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-left\"></i>\n        </div>\n        ", "\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-right\"></i>\n        </div>    \n            "],
-  responsive: {
-    0: {
-      items: 2
-    },
-    600: {
-      items: 3
-    },
-    1000: {
-      items: 4
-    }
-  }
-});
-$('.viewed-the-product-owl-carousel').owlCarousel({
-  loop: true,
-  // items: 6,
-  margin: 15,
-  nav: true,
-  dots: false,
-  navText: ["\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-left fs-5\"></i>\n        </div>\n        ", "\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-right fs-5\"></i>\n        </div>    \n            "],
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 3
-    },
-    1000: {
-      items: 5
-    }
-  }
-});
-$('.category-list-product-owl-carousel').owlCarousel({
-  loop: true,
-  items: 4,
-  margin: 15,
-  nav: true,
-  dots: false,
-  navText: ["\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-left fs-5\"></i>\n        </div>\n        ", "\n        <div class=\"bg-white border rounded-5 py-1 px-2\">\n            <i class=\"bi bi-chevron-right fs-5\"></i>\n        </div>    \n            "],
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 3
-    },
-    1000: {
-      items: 5
-    }
-  }
-});
-$('.navbar-top-banner-owl-carousel').owlCarousel({
-  loop: true,
-  items: 1,
-  margin: 10,
-  nav: false,
-  dots: false
-});
-$('.outstan-brand-sm-owl-carousel').owlCarousel({
-  loop: true,
-  items: 5,
-  margin: 25,
-  nav: false,
-  dots: false
-});
-$('.outstan-banner-sm-owl-carousel').owlCarousel({
-  loop: true,
-  items: 2,
-  margin: 25,
-  // autoWidth: true,
-  nav: false,
-  dots: false
-});
-$('.frame-product-layout-display-banner-owl-carousel').owlCarousel({
-  loop: true,
-  items: 1,
-  margin: 15,
-  // autoWidth: true,
-  nav: false,
-  dots: false
-});
-
-/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-var navbarWrapContent = $('.navbar-wrap');
-var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-window.onscroll = function () {
-  if (width > 765) {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      $('.navbar-bottom').show();
-      navbarWrapContent[0].classList.add('position-fixed');
-    } else {
-      $('.navbar-bottom').hide();
-      navbarWrapContent[0].classList.remove('position-fixed');
-    }
-  } else {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      $('.navbar-top-content').addClass('position-fixed bg-bule204');
-    } else {
-      $('.navbar-top-content').removeClass('position-fixed bg-bule204');
-    }
-  }
-  if (width < 770) {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      $('.header-product').addClass('position-fixed');
-    } else {
-      $('.header-product').removeClass('position-fixed');
-    }
-  }
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    $('.header-category').addClass('position-fixed');
-  } else {
-    $('.header-category').removeClass('position-fixed');
-  }
-};
-$('#productDisplay').find('.modal-header').hide();
-// $('#productDisplay').find('.modal-header').show();
-$('#productDisplay').find('.modal-body').on('scroll', function () {
-  if ($(this).scrollTop() > 20) {
-    $('#productDisplay').find('.modal-header').show();
-  } else {
-    $('#productDisplay').find('.modal-header').hide();
-  }
-});
-
-// Modal
-$('#productDisplay').find('.modal-product-more').on('click', function () {
-  var text = $(this).find('.modal-product-more-text');
-  $(this).find('.modal-product-more-bg').toggle();
-  if (text.text() == 'Xem thêm') {
-    $('#productDisplay').find('.modal-product-des').css('height', '100%');
-    text.text('Rút gọn');
-  } else {
-    $('#productDisplay').find('.modal-product-des').css('height', '550px');
-    text.text('Xem thêm');
-  }
-});
-
-// Product
-$('.product-des-content-wrap').find('.product-des-see-more').on('click', function () {
-  var text = $(this).find('span');
-  $(this).find('.product-des-bg').toggle();
-  if (text.text() == 'Xem thêm') {
-    $('.product-des-content-wrap').find('.product-des-content').css('height', '100%');
-    text.text('Rút gọn');
-  } else {
-    $('.product-des-content-wrap').find('.product-des-content').css('height', '550px');
-    text.text('Xem thêm');
-  }
-});
-
-/* Modal */
-var options = {
-  backdrop: true,
-  // Dung để click ra ngoài để tắt modal
-  keyboard: true // Dùng để ấn phím esc để tắt modal
-};
-var register = new bootstrap.Modal(document.getElementById('registerModal'), options);
-var login = new bootstrap.Modal(document.getElementById('loginModal'), options);
-var productDisplay = new bootstrap.Modal(document.getElementById('productDisplay'), options);
-$('.product-display').on('click', function () {
-  productDisplay.show();
-});
-$('.registerModal').on('click', function () {
-  register.show();
-  login.hide();
-});
-$('#registerModal').on('show.bs.modal', function () {
-  $(this).find('form').trigger('reset');
-  $(this).find('.box-input').each(function () {
-    $(this).find('div').text('');
-  });
-});
-$('.loginModal').on('click', function () {
-  login.show();
-  register.hide();
-});
-$('#loginModal').on('show.bs.modal', function () {
-  $(this).find('form').trigger('reset');
-  $(this).find('.box-input').each(function () {
-    $(this).find('div').text('');
-  });
-});
+var _require = __webpack_require__(/*! ./variable.js */ "./resources/js/variable.js"),
+  windowSize = _require.windowSize;
+var _require2 = __webpack_require__(/*! ./functions/toggleContent.js */ "./resources/js/functions/toggleContent.js"),
+  toggleContent = _require2.toggleContent;
 $(document).ready(function () {
-  $('.form-info').find('input').on('focus', function () {
-    $(this).next().text('');
+  // Hàm để kiểm tra vị trí scroll và thêm/lớp lớp CSS
+  function handleScroll() {
+    var scrollTop = document.body.scrollTop > 20 || document.documentElement.scrollTop > 20;
+    if (windowSize > 765) {
+      $('.navbar-bottom').toggle(scrollTop);
+      $('.navbar-wrap').toggleClass('position-fixed', scrollTop);
+    } else {
+      $('.navbar-top-content').toggleClass('position-fixed bg-bule204', scrollTop);
+    }
+    if (windowSize < 770) {
+      $('.header-product').toggleClass('position-fixed', scrollTop);
+    }
+    $('.header-category').toggleClass('position-fixed', scrollTop);
+  }
+  window.onscroll = handleScroll;
+
+  // Xử lý hiển thị modal header khi scroll modal body
+  $('#productDisplay .modal-body').on('scroll', function () {
+    $('#productDisplay .modal-header').toggle($(this).scrollTop() > 20);
   });
-  $('#registerForm').on('submit', function (e) {
-    e.preventDefault();
-    console.log('--- $(this) ---', $(this));
-    var data = $(this).serializeArray();
-    var dataObject = {};
-    data.forEach(function (item) {
-      dataObject[item.name] = item.value;
-    });
-    $.ajax({
-      url: 'http://localhost:8000/api/register',
-      method: 'POST',
-      data: JSON.stringify(dataObject),
-      contentType: 'application/json',
-      success: function success(response) {
-        alert('Đăng ký thành công');
-        register.hide();
-        login.show();
-        return response;
-      },
-      error: function error(_error) {
-        $.map(_error.responseJSON.message, function (value, index) {
-          $(".".concat(index, "Error")).text(value[0]);
-        });
-      }
-    });
-  });
-  $('#loginForm').on('submit', function (e) {
-    e.preventDefault();
-    var data = $(this).serializeArray();
-    var dataObject = {};
-    data.forEach(function (item) {
-      dataObject[item.name] = item.value;
-    });
-    $.ajax({
-      url: 'http://localhost:8000/api/login',
-      method: 'POST',
-      data: JSON.stringify(dataObject),
-      contentType: 'application/json',
-      success: function success(response) {
-        var _response$data, _response$data2;
-        alert('Đăng nhập thành công');
-        login.hide();
-        // Lưu dữ liệu vào local storage
-        localStorage.setItem('user', JSON.stringify((_response$data = response.data) !== null && _response$data !== void 0 ? _response$data : {}));
-        // Thực hiện load lại trang
-        location.reload();
-        console.log("LD__", (_response$data2 = response.data) !== null && _response$data2 !== void 0 ? _response$data2 : {});
-        // return response;
-      },
-      error: function error(_error2) {
-        if (typeof _error2.responseJSON.message === 'string') {
-          alert(_error2.responseJSON.message);
-        } else {
-          $.map(_error2.responseJSON.message, function (value, index) {
-            $(".".concat(index, "Error")).text(value[0]);
-          });
-        }
-      }
+
+  // Hàm toggle chiều cao và text của các phần tử
+  toggleContent('.product-des-see-more', '.product-des-content-wrap .product-des-content', '550px');
+  toggleContent('.modal-product-more', '#productDisplay .modal-product-des', '550px');
+  $('.dropdown-toggle').map(function () {
+    $(this).on('click', function () {
+      console.log('--- DATA ---', $(this).next('.dropdown-menu'));
+      $(this).next('.dropdown-menu').toggle();
     });
   });
 });
@@ -2417,6 +2133,40 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/functions/toggleContent.js":
+/*!*************************************************!*\
+  !*** ./resources/js/functions/toggleContent.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+// Hàm toggle chiều cao và text của các phần tử
+var toggleContent = function toggleContent(selector, contentSelector, defaultHeight) {
+  $(selector).on('click', function () {
+    var text = $(this).find('span, .modal-product-more-text');
+    var newText = text.text() === 'Xem thêm' ? 'Rút gọn' : 'Xem thêm';
+    var newHeight = newText === 'Xem thêm' ? defaultHeight : '100%';
+    $(this).find('.product-des-bg, .modal-product-more-bg').toggle();
+    $(contentSelector).css('height', newHeight);
+    text.text(newText);
+  });
+};
+exports.toggleContent = toggleContent;
+
+/***/ }),
+
+/***/ "./resources/js/variable.js":
+/*!**********************************!*\
+  !*** ./resources/js/variable.js ***!
+  \**********************************/
+/***/ ((module) => {
+
+var windowSize = $(window).width();
+module.exports = {
+  windowSize: windowSize
+};
 
 /***/ }),
 
@@ -19697,6 +19447,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/components/dropdown.scss":
+/*!*************************************************!*\
+  !*** ./resources/sass/components/dropdown.scss ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/pages/home/home.scss":
 /*!*********************************************!*\
   !*** ./resources/sass/pages/home/home.scss ***!
@@ -19831,19 +19594,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************************************!*\
   !*** ./resources/sass/pages/customer/orders.scss ***!
   \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/sass/abstracts/_variableweb.scss":
-/*!****************************************************!*\
-  !*** ./resources/sass/abstracts/_variableweb.scss ***!
-  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20239,8 +19989,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.
 /******/ 			"css/components/product-display": 0,
 /******/ 			"css/components/product-promotional": 0,
 /******/ 			"css/components/navbar": 0,
-/******/ 			"css/abstracts/_variableweb": 0,
-/******/ 			"css/pages/customer/orders/orders": 0,
+/******/ 			"css/pages/customer/orders": 0,
 /******/ 			"css/pages/product-detail/product-des": 0,
 /******/ 			"css/pages/product-detail/product-detail": 0,
 /******/ 			"css/pages/category/category": 0,
@@ -20251,6 +20000,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.
 /******/ 			"css/pages/home/list-product": 0,
 /******/ 			"css/pages/home/header": 0,
 /******/ 			"css/pages/home/home": 0,
+/******/ 			"css/components/dropdown": 0,
 /******/ 			"css/components/modal": 0,
 /******/ 			"css/components/title-frame-web": 0,
 /******/ 			"css/components/viewed-the-product": 0,
@@ -20305,29 +20055,29 @@ module.exports = /*#__PURE__*/JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/main.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/navbar.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/product-promotional.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/product-display.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/frame-product-layout-display.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/footer.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/products-just-for-you.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/viewed-the-product.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/title-frame-web.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/modal.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/home.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/header.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/list-product.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/useful-information.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/outstan-category.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/outstan-brand.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/service-banner.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/category/category.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/product_detail/product-detail.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/product_detail/product-des.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/customer/orders.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/abstracts/_variableweb","css/pages/customer/orders/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/abstracts/_variableweb.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/navbar.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/product-promotional.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/product-display.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/frame-product-layout-display.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/footer.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/products-just-for-you.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/viewed-the-product.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/title-frame-web.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/modal.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/components/dropdown.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/home.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/header.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/list-product.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/useful-information.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/outstan-category.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/outstan-brand.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/home/service-banner.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/category/category.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/product_detail/product-detail.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/product_detail/product-des.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main","css/components/frame-product-layout-display","css/components/product-display","css/components/product-promotional","css/components/navbar","css/pages/customer/orders","css/pages/product-detail/product-des","css/pages/product-detail/product-detail","css/pages/category/category","css/pages/home/service-banner","css/pages/home/outstan-brand","css/pages/home/outstan-category","css/pages/home/useful-information","css/pages/home/list-product","css/pages/home/header","css/pages/home/home","css/components/dropdown","css/components/modal","css/components/title-frame-web","css/components/viewed-the-product","css/components/products-just-for-you","css/components/footer"], () => (__webpack_require__("./resources/sass/pages/customer/orders.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
