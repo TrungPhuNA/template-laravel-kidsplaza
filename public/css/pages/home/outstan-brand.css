@@ -1,0 +1,17 @@
+.outstan-brand .outstan-brand-item,
+.outstan-brand-category .outstan-brand-item {
+  width: 127.616px;
+}
+.outstan-brand .outstan-brand-item > div,
+.outstan-brand-category .outstan-brand-item > div {
+  border: 1.5px solid rgb(34, 196, 244);
+}
+
+@media only screen and (max-width: 768px) {
+  .outstan-brand-category {
+    margin: 0px !important;
+  }
+  .outstan-brand-category .outstan-brand-item > div {
+    border: none;
+  }
+}

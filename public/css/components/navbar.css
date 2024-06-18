@@ -1,0 +1,121 @@
+.navbar {
+  background-color: #ffcc33;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+.navbar .navbar-top {
+  background-color: #204099;
+  border: 2px solid #fff;
+  border-top: none;
+}
+.navbar .navbar-top .navbar-input-search input::-moz-placeholder {
+  color: #9ba3af;
+  font-size: 0.9rem;
+}
+.navbar .navbar-top .navbar-input-search input::placeholder {
+  color: #9ba3af;
+  font-size: 0.9rem;
+}
+.navbar .navbar-top .navbar-input-search div {
+  top: 13%;
+  right: 2%;
+}
+.navbar .navbar-top .navbar-input-search div i {
+  color: #cfd3d8;
+}
+.navbar .navbar-top .navbar-right p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 0.875rem;
+  color: #fff;
+}
+.navbar .navbar-bottom .navbar-bottom-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .navbar-bottom .navbar-bottom-item div {
+  font-weight: bold;
+  color: rgb(33, 64, 154);
+  font-size: 13px;
+}
+.navbar .navbar-bg {
+  background-color: #204099;
+  border: 2px solid #fff;
+  border-top: none;
+  width: 100%;
+  height: -webkit-fill-available;
+  z-index: 1;
+}
+
+.header-category, .header-product {
+  z-index: 99;
+  width: 100%;
+  background: white;
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    background-color: transparent;
+  }
+  .navbar .navbar-top {
+    border: none;
+    background-color: transparent;
+  }
+  .navbar .navbar-top .navbar-input-search input::-moz-placeholder {
+    font-size: 0.7rem;
+    transform: translateY(-2px);
+    padding-left: 20px;
+  }
+  .navbar .navbar-top .navbar-input-search input::placeholder {
+    font-size: 0.7rem;
+    transform: translateY(-2px);
+    padding-left: 20px;
+  }
+  .navbar .navbar-top .navbar-input-search .search {
+    top: 23%;
+  }
+  .navbar .navbar-top .navbar-input-search .search .option {
+    border-left: 1px solid rgba(155, 163, 175, 0.3960784314);
+    font-size: 12px;
+  }
+  .navbar .navbar-top .navbar-input-search .search .option i {
+    color: #204099;
+    font-size: 8px;
+  }
+  .navbar .navbar-top .navbar-input-search .logo {
+    top: 0;
+    left: 1px;
+  }
+  .navbar .navbar-top .welcome {
+    bottom: -9%;
+    left: 5.5%;
+    width: 93%;
+    z-index: 10;
+  }
+  .navbar .navbar-top .welcome > div:nth-child(1) {
+    font-size: 12px;
+  }
+  .navbar .navbar-top .welcome > div:nth-child(2) {
+    font-size: 10px;
+  }
+  .navbar .navbar-top .welcome .welcome-col-left .login button {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 10px;
+    background-color: rgb(34, 196, 244);
+  }
+  .navbar .navbar-top .welcome .welcome-col-left > div:nth-child(2) {
+    width: 80%;
+  }
+  .navbar .navbar-top-content {
+    position: absolute;
+    z-index: 10;
+  }
+}
+@media (max-width: 1025px) {
+  .navbar-bottom {
+    font-size: 14px;
+  }
+}

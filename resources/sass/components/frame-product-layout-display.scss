@@ -1,0 +1,88 @@
+.frame-product-layout-display {
+    .frame-product-layout-display-title {
+        .title-nav {
+            font-size: 1.1rem;
+        }
+    }
+    .frame-product-layout-display-properties {
+        font-size: 17px;
+    }
+    .frame-product-layout-display-brand {
+        > div:nth-child(1) {
+            div {
+                img {
+                    border: 1px solid #60cff6;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .frame-product-layout-display {
+        .frame-product-layout-display-properties {
+            > div:nth-child(2) {
+                border-top: 1px solid #dee2e6;
+                padding-top: 1.5rem;
+                margin-top: 1.5rem;
+            }
+        }
+
+        .frame-product-layout-display-properties {
+            font-size: 13px;
+            margin-bottom: 0px !important;
+        }
+
+        .frame-product-layout-display-banner {
+            flex-wrap: nowrap !important;
+        }
+
+        .frame-product-layout-display-brand {
+            margin-top: 0px !important;
+            border-bottom: 1px solid #dee2e6;
+            > div:nth-child(1) {
+                div {
+                    img {
+                        width: 100%;
+                        height: auto;
+                        padding: 0 0.5rem !important;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .frame-product-layout-display {
+        .frame-product-layout-display-properties {
+            > div:nth-child(2) {
+                border-top: 1px solid #dee2e6;
+                padding-top: 1.5rem;
+                margin-top: 1.5rem;
+            }
+        }
+        .frame-product-layout-display-title {
+            .title-nav {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .frame-product-layout-display {
+        .frame-product-layout-display-properties {
+            > div:nth-child(2) {
+                border-top: none;
+                padding-top: 0;
+                margin-top: 0;
+            }
+        }
+        .frame-product-layout-display-title {
+            .title-nav {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

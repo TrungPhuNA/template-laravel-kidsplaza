@@ -1,0 +1,19 @@
+.list-product-home{
+    background-color:#DFF2FE;
+    .list-product{
+        .list-product-item{
+            width: 31%;
+        }
+    }
+    
+    .list-product-view-all{
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .list-product-home{
+        background-color:white;
+    }
+}

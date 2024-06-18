@@ -1,0 +1,33 @@
+.list-category {
+    .category-item {
+        div{
+            width: 85px;
+        }
+        > div:nth-child(1) {
+            height: 115px;
+        }
+    }
+}
+
+.bar-category{
+    width: 12%;
+    margin: 0 auto;
+    .progress{
+        height: 7px;
+        .progress-bar{
+            background-color: #21409a;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .list-category {
+        flex-wrap: wrap !important;
+        .category-item {
+            > div:nth-child(1) {
+                height: auto;
+            }
+        }
+    }
+}

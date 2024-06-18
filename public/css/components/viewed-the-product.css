@@ -1,0 +1,10 @@
+.viewed-the-product-owl-carousel .owl-nav button {
+  position: absolute;
+  top: 40%;
+}
+.viewed-the-product-owl-carousel .owl-nav button:nth-child(1) {
+  left: -1%;
+}
+.viewed-the-product-owl-carousel .owl-nav button:nth-child(2) {
+  right: -2%;
+}

@@ -1,0 +1,27 @@
+.list-category .category-item div {
+  width: 85px;
+}
+.list-category .category-item > div:nth-child(1) {
+  height: 115px;
+}
+
+.bar-category {
+  width: 12%;
+  margin: 0 auto;
+}
+.bar-category .progress {
+  height: 7px;
+}
+.bar-category .progress .progress-bar {
+  background-color: #21409a;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .list-category {
+    flex-wrap: wrap !important;
+  }
+  .list-category .category-item > div:nth-child(1) {
+    height: auto;
+  }
+}

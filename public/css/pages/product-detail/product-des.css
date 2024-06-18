@@ -1,0 +1,19 @@
+.product-des .product-des-title {
+  font-size: 21px;
+}
+.product-des .product-des-content {
+  height: 550px;
+  overflow: hidden;
+}
+.product-des .product-des-bg {
+  width: 100%;
+  height: 50px;
+  bottom: -4%;
+  background: linear-gradient(360deg, rgb(255, 255, 255) 43.57%, rgba(181, 15, 15, 0) 103.88%, rgba(255, 255, 255, 0) 146.21%, rgba(255, 255, 255, 0.72) 146.21%, rgba(255, 255, 255, 0) 146.21%);
+}
+.product-des .product-des-see-more {
+  font-size: 20px;
+}
+.product-des .product-des-see-more i {
+  font-size: 14px;
+}
