@@ -1,0 +1,536 @@
+{
+    "banners": [
+        "https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/h/e/healthy_care_t5-web_m_i_banner_danh_m_c_l_n_web-1.png",
+        "https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/s/k/skinny-bn_mebaudenlatang_1.jpg",
+        "https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/1/2/1204x250_1.png"
+    ],
+    "diapers_hygiene": {
+        "title": "Bỉm tã và vệ sinh",
+        "nav": [
+            "Tã - Bỉm Goon",
+            "Tã - Bỉm Merries",
+            "Tã - Bỉm Huggies",
+            "Tã - Bỉm Bobby",
+            "Tã - Bỉm Moony"
+        ],
+        "banner": [
+            {
+                "col": "col-7",
+                "src": "images/banner/KV_Moony_T6.png"
+            },
+            {
+                "col": "col",
+                "src": "images/banner/KV_Huggies_xanh.png"
+            }
+        ],
+        "properties": [
+            [
+                "Việt Nam",
+                "Nhật Bản",
+                "Trung Quốc",
+                "Italia",
+                "Hàn Quốc"
+            ],
+            [
+                "M",
+                "L",
+                "XL",
+                "NB",
+                "S",
+                "XXL"
+            ]
+        ]
+    },
+    "milk_for_babie": {
+        "title": "Sữa cho bé",
+        "nav": [
+            "Sữa Meiji",
+            "Sữa Morinaga",
+            "Sữa Nan",
+            "Sữa Aptamil",
+            "Sữa Pediasure",
+            "Sữa Similac"
+        ],
+        "banner": [
+            {
+                "col": "col",
+                "src": "images/banner/sua_cho_be_banner_1.png"
+            },
+            {
+                "col": "col-7",
+                "src": "images/banner/sua_cho_be_banner_2.png"
+            }
+        ],
+        "properties": [
+            [
+                "Việt Nam",
+                "Nhật Bản",
+                "Hàn Quốc",
+                "Thái Lan",
+                "Thủy Sĩ"
+            ],
+            [
+                "6M+",
+                "1Y+",
+                "0-6M",
+                "0-12M",
+                "6-12M",
+                "1-3Y"
+            ]
+        ]
+    },
+    "mobile_bottom": [
+        {
+            "icon": "https://cdn.kidsplaza.io/assets/icons/kid-logo-circle.png",
+            "title": "Trang chủ"
+        },
+        {
+            "icon": "https://cdn.kidsplaza.io/assets/icons/inactive-category.png",
+            "title": "Danh mục"
+        },
+        {
+            "icon": "https://cdn.kidsplaza.io/assets/icons/inactive-gift.png",
+            "title": "Khuyến mãi"
+        },
+        {
+            "icon": "https://cdn.kidsplaza.io/assets/icons/inactive-account.png",
+            "title": "Tôi"
+        }
+    ],
+    "navbar-bottom": [
+        {
+            "icon": "bi bi-list",
+            "text": "Danh mục"
+        },
+        {
+            "icon": "bi bi-bag-check",
+            "text": "Zalo cửa hàng"
+        },
+        {
+            "icon": "bi bi-check-lg",
+            "text": "Ưu đãi khi tải app"
+        },
+        {
+            "icon": "bi bi-house-door-fill",
+            "text": "Thưởng Kicoin"
+        },
+        {
+            "icon": "bi bi-question-circle-fill",
+            "text": "Hotline: 1800.6608"
+        }
+    ],
+    "list-category": [
+        {
+            "icon": "me_bau_va_sau_sinh.png",
+            "title": "Mẹ bầu và sau sinh",
+            "url": "me-bau-va-sau-sinh"
+        },
+        {
+            "icon": "sua_cho_be.png",
+            "title": "Sữa cho bé",
+            "url": "sua-cho-be"
+        },
+        {
+            "icon": "be_an_dam.png",
+            "title": "Bé ăn dặm",
+            "url": "be-an-dam"
+        },
+        {
+            "icon": "bim_ta_va_ve_sinh.png",
+            "title": "Bỉ tã và vệ sinh",
+            "url": "bi-ta-va-ve-sinh"
+        },
+        {
+            "icon": "binh_sua_va_phu_kien.png",
+            "title": "Bình sữa và phụ kiện",
+            "url": "binh-sua-va-phu-kien"
+        },
+        {
+            "icon": "do_so_sinh.png",
+            "title": "Đồ sơ sinh",
+            "url": "do-so-sinh"
+        },
+        {
+            "icon": "thoi_trang_va_phu_kien.png",
+            "title": "Thời trang và phụ kiện",
+            "url": "thoi-trang-va-phu-kien"
+        },
+        {
+            "icon": "vitamin_va_suc_khoe.png",
+            "title": "Vitamin và sức khỏe",
+            "url": "vitamin-va-suc-khoe"
+        },
+        {
+            "icon": "do_dung_me_va_be.png",
+            "title": "Đồ dùng mẹ và bé",
+            "url": "do-dung-me-va-be"
+        },
+        {
+            "icon": "giat_xa_va_tam_goi.png",
+            "title": "Giặt xả và Tắm gội",
+            "url": "giat-xa-va-tam-goi"
+        },
+        {
+            "icon": "do_choi_va_hoc_tap.png",
+            "title": "Đồ chơi và học tập",
+            "url": "do-choi-va-hoc-tap"
+        }
+    ],
+    "header_banner": [
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_home-ngay-gia-dinh-t6.png",
+            "alt": "First slide"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_home_web-nang-cap-web-moi-t6.png",
+            "alt": "Second slide"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_homethoi-trang-sale-t6.png",
+            "alt": "Third slide"
+        }
+    ],
+    "header_tool": [
+        {
+            "icon": "active-category.png",
+            "title": "Danh Mục",
+            "subtitle": ""
+        },
+        {
+            "icon": "blue-fire.png",
+            "title": "Siêu deal",
+            "subtitle": "mỗi ngày"
+        },
+        {
+            "icon": "voucher.png",
+            "title": "Voucher",
+            "subtitle": "giảm giá"
+        },
+        {
+            "icon": "active-gift.png",
+            "title": "Ưu đãi",
+            "subtitle": "hấp dẫn"
+        },
+        {
+            "icon": "order-box.png",
+            "title": "Tra cứu",
+            "subtitle": "đơn hàng"
+        },
+        {
+            "icon": "kid-location.png",
+            "title": "Siêu thị",
+            "subtitle": "gần bạn"
+        },
+        {
+            "icon": "free-ship.png",
+            "title": "Miễn phí",
+            "subtitle": "giao hàng"
+        },
+        {
+            "icon": "circle-45.png",
+            "title": "Đổi trả",
+            "subtitle": "15 ngày"
+        },
+        {
+            "icon": "icon-kicoin.png",
+            "title": "Tích lũy",
+            "subtitle": "Kicoin"
+        },
+        {
+            "icon": "question.png",
+            "title": "Hỏi đáp",
+            "subtitle": "ngay"
+        }
+    ],
+    "featured_screen_large": [
+        {
+            "img_1": "friso_1.jpg",
+            "img_2": "meiji_1.jpeg"
+        },
+        {
+            "img_1": "glico.jpg",
+            "img_2": "logo-vinamilk_2.jpg"
+        },
+        {
+            "img_1": "nestle_1.jpg",
+            "img_2": "huggies_1.png"
+        },
+        {
+            "img_1": "bebe-confort.png",
+            "img_2": "bubbchen.jpg"
+        },
+        {
+            "img_1": "logo-nuby.jpg",
+            "img_2": "chuchubaby-japan-50.jpg"
+        },
+        {
+            "img_1": "philips_avent.jpeg",
+            "img_2": "logo-unidry.jpeg"
+        },
+        {
+            "img_1": "logo-Milo.jpeg",
+            "img_2": "logo-gennie.jpg"
+        },
+        {
+            "img_1": "friso_1.jpg",
+            "img_2": "meiji_1.jpeg"
+        },
+        {
+            "img_1": "glico.jpg",
+            "img_2": "logo-vinamilk_2.jpg"
+        }
+    ],
+    "featured_page_category_screen_large": [
+        {
+            "img": "friso_1.jpg",
+            "class": " d-lg-block"
+        },
+        {
+            "img": "meiji_1.jpeg",
+            "class": "d-lg-block d-xl-block"
+        },
+        {
+            "img": "glico.jpg",
+            "class": "d-lg-block"
+        },
+        {
+            "img": "logo-vinamilk_2.jpg",
+            "class": "d-sm-none d-md-none d-lg-none d-xl-block"
+        },
+        {
+            "img": "nestle_1.jpg",
+            "class": "d-sm-none d-lg-none d-xl-block"
+        },
+        {
+            "img": "huggies_1.png",
+            "class": "d-lg-block"
+        },
+        {
+            "img": "bebe-confort.png",
+            "class": "d-md-none d-lg-block"
+        }
+    ],
+    "featured_screen_small": [
+        "friso_1.jpg",
+        "meiji_1.jpeg",
+        "glico.jpg",
+        "logo-vinamilk_2.jpg",
+        "nestle_1.jpg",
+        "huggies_1.png",
+        "bebe-confort.png",
+        "bubbchen.jpg"
+    ],
+    "outstan_category": [
+        {
+            "img": "me_bau_va_sau_sinh.png",
+            "name": "Mẹ bầu và sau sinh",
+            "bg": "bg-yellow-ff"
+        },
+        {
+            "img": "sua_cho_be.png",
+            "name": "Sữa cho bé",
+            "bg": "bg-rose-fe"
+        },
+        {
+            "img": "bim_ta_va_ve_sinh.png",
+            "name": "Bỉm tã và vệ sinh",
+            "bg": "bg-blue-b6"
+        },
+        {
+            "img": "do_so_sinh.png",
+            "name": "Đồ sơ sinh",
+            "bg": "bg-green-c8"
+        },
+        {
+            "img": "binh_sua_va_phu_kien.png",
+            "name": "Bình sữa và phụ kiện",
+            "bg": "bg-yellow-ff"
+        },
+        {
+            "img": "do_dung_me_va_be.png",
+            "name": "Đồ dùng mẹ và bé",
+            "bg": "bg-yellow-f1d"
+        },
+        {
+            "img": "thoi_trang_va_phu_kien.png",
+            "name": "Thời trang và phụ kiện",
+            "bg": "bg-rose-fe"
+        },
+        {
+            "img": "vitamin_va_suc_khoe.png",
+            "name": "Vitamin và sức khỏe",
+            "bg": "bg-green-c8"
+        },
+        {
+            "img": "giat_xa_va_tam_goi.png",
+            "name": "Giặt xả và tắm gội",
+            "bg": "bg-rose-fe"
+        },
+        {
+            "img": "be_an_dam.png",
+            "name": "Bé ăn dặm",
+            "bg": "bg-green-c8"
+        }
+    ],
+    "list_category_page": [
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/sua-cho-me-bau.jpg",
+            "name": "Sữa cho mẹ bầu",
+            "url": "sua-cho-me-bau",
+            "class": "d-lg-block d-xl-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/bo-nao-healthy-care-ginkgo-biloba-2000-12y-1_1.png",
+            "name": "Cho mẹ bầu và mẹ sau sinh",
+            "url": "cho-me-bau-va-me-sau-sinh",
+            "class": " d-lg-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/bo-quan-ao-sau-sinh-cho-me-in-tim-co-ren-xanh-m23-1.png",
+            "name": "Quần áo mẹ bầu và sau sinh",
+            "url": "quan-ao-me-bau-va-sau-sinh",
+            "class": "d-lg-none d-xl-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/may-hut-sua-cho-be.png",
+            "name": "Máy hút sữa",
+            "url": "may-hut-sua",
+            "class": "d-lg-none d-xl-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/tui-tru-sua-sunmum-50pcs-mau-moi-1.png",
+            "name": "Túi hút sữa",
+            "url": "tui-hut-sua",
+            "class": " d-lg-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/tui-tham-sua-tro-ti.png",
+            "name": "Thấm sữa và trợ ty",
+            "url": "tham-sua-va-tro-ty",
+            "class": " d-lg-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/ao_lot_co_dem_khuy_bam_gb_size_85_1.png",
+            "name": "Áo ngực cho con bú",
+            "url": "ao-nguc-cho-con-bu",
+            "class": " d-md-none d-lg-block"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn//media/catalog/category/sua-cho-me-bau.jpg",
+            "name": "Xem tất cả",
+            "class": "d-md-none d-lg-block"
+        }
+    ],
+    "propertie_categroy": [
+        {
+            "propertie_name": "Khoảng giá",
+            "propertie_detal": [
+                0,
+                7000000
+            ]
+        },
+        {
+            "propertie_name": "Dung tích",
+            "propertie_detal": [
+                "180ml",
+                "1000ml",
+                "200ml",
+                "125ml",
+                "150ml",
+                "250ml",
+                "550",
+                "600ml",
+                "100ml",
+                "190ml"
+            ]
+        },
+        {
+            "propertie_name": "Độ tuổi",
+            "propertie_detal": [
+                "1Y+",
+                "0M+",
+                "3Y+",
+                "0-6M"
+            ]
+        },
+        {
+            "propertie_name": "Màu sắc",
+            "propertie_detal": [
+                "Màu hồng",
+                "Nhiều màu",
+                "Màu hồng nhạt",
+                "Màu trắng",
+                "Màu be",
+                "Màu xanh lam",
+                "Màu cam",
+                "Màu cam-nâu",
+                "Màu da",
+                "Màu hồng-cam"
+            ]
+        },
+        {
+            "propertie_name": "Xuất xứ",
+            "propertie_detal": [
+                "Việt Nam",
+                "Trung Quốc",
+                "Thái Lan",
+                "Nhật Bản",
+                "Hàn Quốc",
+                "Ba Lan",
+                "Pháp",
+                "Thủy Sĩ",
+                "Hà Lan",
+                "Mỹ"
+            ]
+        },
+        {
+            "propertie_name": "Thương hiệu",
+            "propertie_detal": [
+                "Kidsplaza",
+                "Chính Hãng",
+                "Fatz Baby",
+                "Sabina",
+                "Bio-Oil",
+                "ChuChuBaby",
+                "Abbott",
+                "Medela",
+                "137 Degrees",
+                "Ballas",
+                "Kumanoyushi",
+                "Unimom",
+                "Mamago",
+                "Anpaso",
+                "Friso",
+                "Matilia"
+            ]
+        },
+        {
+            "propertie_name": "Khối lượng",
+            "propertie_detal": [
+                "400g",
+                "500g",
+                "216g",
+                "450g",
+                "900g",
+                "20g",
+                "800g",
+                "830g",
+                "1.5 kg",
+                "170g"
+            ]
+        },
+        {
+            "propertie_name": "Kích thước",
+            "propertie_detal": [
+                "XL",
+                "S42",
+                "L",
+                "S38",
+                "S40",
+                "XXL",
+                "M",
+                "S"
+            ]
+        }
+    ]
+}

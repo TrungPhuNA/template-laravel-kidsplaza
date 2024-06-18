@@ -3,7 +3,7 @@
     <link href="{{ asset('css/pages/home/home.css') }}" rel="stylesheet">
 @endsection
 @php
-    $data_static = json_decode(file_get_contents(storage_path('app/database/data-static.json')), true);
+    $data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
     $banners = $data_static['banners'];
     $diapers_hygiene = $data_static['diapers_hygiene'];
     $milk_for_babie = $data_static['milk_for_babie'];

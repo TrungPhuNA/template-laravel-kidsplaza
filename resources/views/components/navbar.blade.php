@@ -1,7 +1,7 @@
 @php
     $hideOnCertainPages = in_array($page, ['category', 'product-detail', 'cart']);
     $headerClass = $hideOnCertainPages ? 'd-md-none-x' : '';
-    $data_static = json_decode(file_get_contents(storage_path('app/database/data-static.json')), true);
+    $data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
     $navbar_bottom = $data_static['navbar-bottom'];
 @endphp
 

@@ -1,5 +1,5 @@
 @php
-    $data_static = json_decode(file_get_contents(storage_path('app/database/data-static.json')), true);
+    $data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
     $mobile_bottom = $data_static['mobile_bottom'];
 @endphp
 
