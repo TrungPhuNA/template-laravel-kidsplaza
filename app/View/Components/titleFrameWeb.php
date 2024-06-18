@@ -14,7 +14,7 @@ class titleFrameWeb extends Component
      *
      * @return void
      */
-    public function __construct($title, $nav, $textColor = 'text-bule204')
+    public function __construct($title = '', $nav, $textColor = 'text-bule204')
     {
         $this->title = $title;
         $this->nav = $nav;
@@ -28,6 +28,10 @@ class titleFrameWeb extends Component
      */
     public function render()
     {
-        return view('components.title-frame-web');
+        return view('components.title-frame-web',[
+            'title' => $this->title,
+            'nav' => $this->nav,
+            'textColor' => $this->textColor
+        ]);
     }
 }
