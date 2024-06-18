@@ -5,7 +5,7 @@
 <section class="section-wrapper">
     <div class="container px-0">
         <div class=" bg-white box-p rounded-4 shadow-sm d-xs-none">
-            <x-title-frame-web :title="'Thương hiệu nổi bật'" :nav="['']" />
+            <x-title-frame-web title="Thương hiệu nổi bật" :nav="['']" />
             <div class="outstan-brand-owl-carousel owl-carousel owl-theme outstan-brand box-m-top-bottom ">
                 @foreach( $data_static['featured_screen_large'] as $brand) 
                 <div class="item outstan-brand-item">

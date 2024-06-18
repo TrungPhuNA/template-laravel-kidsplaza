@@ -5,7 +5,7 @@
 <section class="section-wrapper">
     <div class="container useful-information">
         <div class="d-flex justify-content-between align-items-center">
-            <x-title-frame-web :title="'Thông tin bổ ích'" :nav="['']" />
+            <x-title-frame-web title="Thông tin bổ ích" :nav="['']" />
             <div class="fw-semibold text-bule204 d-flex align-items-center gap-2 useful-information-more">
                 <div>Xem thêm các bài viết hay</div>
                 <i class="bi bi-chevron-right"></i>
