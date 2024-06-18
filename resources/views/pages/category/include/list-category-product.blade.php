@@ -13,7 +13,7 @@
     <div class="box-m-top-bottom box-p bg-white rounded-4">
         <div class="d-md-none-x">
             <div class="d-flex justify-content-between align-items-center">
-                <x-title-frame-web :title="'Mẹ bầu và sau sinh'" :nav="['']" />
+                <x-title-frame-web title="Mẹ bầu và sau sinh" :nav="['']" />
                 <div class="fw-semibold text-bule204 d-flex align-items-center gap-2">
                     <i class="bi bi-filter"></i>
                     <div class="fs-6">Sắp xếp theo</div>

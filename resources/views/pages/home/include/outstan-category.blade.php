@@ -5,7 +5,7 @@
 <section class="section-wrapper">
     <div class="bg-white box-p rounded-4 shadow-sm">
         <div class="d-xs-none">
-            <x-title-frame-web :title="'Danh mục nổi bật'" :nav="['']" />
+            <x-title-frame-web title="Danh mục nổi bật" :nav="['']" />
         </div>
         <div class="d-sm-none">
             <div class="d-flex align-items-center justify-content-center gap-2 text-bule204">

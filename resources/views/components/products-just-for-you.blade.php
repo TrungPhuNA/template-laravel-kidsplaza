@@ -15,7 +15,7 @@
         <div class="container px-0">
             <div class="box-p px-0">
                 <div class="d-xs-none">
-                    <x-title-frame-web :title="'Sản phẩm dành riêng cho bạn'" :nav="['']" />
+                    <x-title-frame-web title="Sản phẩm dành riêng cho bạn" :nav="['']" />
                 </div>
                 @if(!empty($carousel))
                     <div class="row category-list-product-owl-carousel owl-carousel owl-theme list-product box-m-top-bottom gap-4">

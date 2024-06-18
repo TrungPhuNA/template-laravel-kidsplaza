@@ -4,7 +4,7 @@
 
 <section class="section-wrapper">
     <div class="bg-white box-p rounded-4 shadow-sm">
-        <x-title-frame-web :title="'Thương hiệu'" :nav="['']" />
+        <x-title-frame-web title="Thương hiệu" :nav="['']" />
         <div class=" outstan-brand-category box-m-top-bottom d-flex justify-content-between">
             @foreach( $data_static['featured_page_category_screen_large'] as $key => $brand)
             <div class="item outstan-brand-item cup {{ $brand['class'] }}">
