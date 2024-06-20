@@ -4,8 +4,8 @@
 @endsection
 @php
     $data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
-    $data_useful_info = json_decode(file_get_contents(storage_path('/app/database/useful-info.json')), true);
-    $data_products = json_decode(file_get_contents(storage_path('/app/database/products.json')), true);
+    $data_useful_info = json_decode(file_get_contents(storage_path('useful-info.json')), true);
+    $data_products = json_decode(file_get_contents(storage_path('products.json')), true);
 
     $useful_info = $data_useful_info['useful_info'];
     $banners = $data_static['banners'];
