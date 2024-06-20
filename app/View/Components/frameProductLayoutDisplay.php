@@ -10,17 +10,19 @@ class frameProductLayoutDisplay extends Component
     public $nav;
     public $banner;
     public $properties;
+    public $data;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title, $nav, $banner, $properties)
+    public function __construct($title, $nav, $banner, $properties, $data = [])
     {
         $this->title = $title;
         $this->nav = $nav;
         $this->banner = $banner;
         $this->properties = $properties;
+        $this->data = $data;
     }
     /**
      * Get the view / contents that represent the component.
@@ -29,6 +31,8 @@ class frameProductLayoutDisplay extends Component
      */
     public function render()
     {
-        return view('components.frame-product-layout-display');
+        return view('components.frame-product-layout-display',[
+            'data' => $this->data,
+        ]);
     }
 }

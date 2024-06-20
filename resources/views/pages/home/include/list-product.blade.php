@@ -8,20 +8,24 @@
                 <x-title-frame-web :title="['Nổi bật','Bán chạy','Mới về']" :nav="['']" />
             </div>
             <div class="row box-m-top-bottom"> 
-                @foreach([1,2] as $item)
                 <div class="col-xl-5 col-lg-5  px-0 d-xs-none">
-                    <div class="p-xs-2 p-2 ps-0">
-                        @include('components/product-promotional')
+                    @foreach([1,2] as $item)
+                        <div class="p-xs-2 p-3 ps-0">
+                            @include('components/product-promotional')
+                        </div>
+                    @endforeach
+                </div>
+                <div class="col ps-3 list-product-item px-0">
+                    <div class="row">
+                        @foreach($outsan_product as $item)    
+                            <div class="col p-xs-2 p-3"> <!-- col-xl-20 col-lg-20 col-sm-4 col-xs-6 -->
+                                @include('components/product-display',[
+                                    'product' => $item
+                                ])
+                            </div>
+                        @endforeach
                     </div>
                 </div>
-                @foreach([1,2,3] as $item)
-                <div class="col-xl-20 col-lg-20 col-sm-4 col-xs-6  list-product-item px-0">
-                    <div class="p-xs-2 p-2">
-                        @include('components/product-display')
-                    </div>
-                </div>
-                @endforeach
-                @endforeach
             </div>
             <x-button class="d-flex gap-1 align-items-center text-white bg-bule204 list-product-view-all rounded-5 px-4 py-2 fw-semibold border bg-bule23-hover" text="Xem tất cả" icon="bi bi-chevron-right" iconPosition="right" />
         </div>

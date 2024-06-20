@@ -1,6 +1,5 @@
-<section class="section-wrapper">
-    <link href="{{ asset('css/components/frame-product-layout-display.css') }}" rel="stylesheet">
-    
+<link href="{{ asset('css/components/frame-product-layout-display.css') }}" rel="stylesheet">
+<section class="section-wrapper">    
     <div class="container px-0">
         <div class="bg-white box-p rounded-3 frame-product-layout-display">
             <div class="d-xs-none frame-product-layout-display-title">
@@ -66,14 +65,16 @@
             <div class="">
                 <div class="row p-4 px-2 pt-0">
                     <div class="col-xl-5 col-lg-6 col-md-12 col-xs-12 px-0">
-                        <div class="p-2 ps-0">
+                        <div class="p-3 ps-0">
                             @include('components/product-promotional')
                         </div>
                     </div>
-                    @foreach([1,2,3,4,5,6,7,8] as $item)
+                    @foreach($data ?? [] as $item)
                     <div class="col-xl-20 col-lg-3 col-md-4 col-xs-6 list-product-item px-0">
-                        <div class="p-2">
-                            @include('components/product-display')
+                        <div class="p-3">
+                            @include('components/product-display',[
+                                'product' => $item
+                            ])
                         </div>
                     </div>
                     @endforeach

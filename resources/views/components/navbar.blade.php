@@ -1,8 +1,8 @@
 @php
-    $hideOnCertainPages = in_array($page, ['category', 'product-detail', 'cart']);
-    $headerClass = $hideOnCertainPages ? 'd-md-none-x' : '';
-    $data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
-    $navbar_bottom = $data_static['navbar-bottom'];
+$hideOnCertainPages = in_array($page, ['category', 'product-detail', 'cart']);
+$headerClass = $hideOnCertainPages ? 'd-md-none-x' : '';
+$data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
+$navbar_bottom = $data_static['navbar-bottom'];
 @endphp
 
 <header class="bg-cF {{ $headerClass }}">
@@ -70,13 +70,47 @@
                                 <p class="">Tài khoản</p>
                             </x-button>
                         </div>
-                        <div class="text-center cup ">
-                            <a href="/payment/cart">
+                        <div class="text-center cup navbar-cart">
+                            <div class="position-relative">
                                 <div class="relative">
                                     <x-svg-icon name="cart" />
                                 </div>
                                 <p class="d-xs-none">Giỏ hàng</p>
-                            </a>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                                    1
+                                </span>
+                                <div class="cart-modal position-absolute ">
+                                    <div class="bg-white p-3 rounded-4 shadow00 position-relative">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <div class="fs-4 text-bule204 fw-semibold">Giỏ hàng</div>
+                                                <div class="text-bule204 " style="font-size:12px;">(1 sản phẩm)</div>
+                                            </div>
+                                            <div class="fs-4 text-orange-fbb fw-semibold">265.000đ</div>
+                                        </div>
+                                        <div class="row my-3 border-bottom pb-3">
+                                            <div class="col-3 position-relative">
+                                                <img src="https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/v/i/vitamin-d3-k2-mk7-sunday-natural-20ml-1.jpg" width="72" height="72" />
+                                                <div class="position-absolute top-0 end-0 text-orange-fbb">1 x</div>
+                                            </div>
+                                            <div class="col text-start text-bule204 ">
+                                                Vitamin D3K2 MK7 Sunday Natural 20ml của...
+                                            </div>
+                                            <div class="col-3 fs-6 fw-semibold">
+                                                265.000đ
+                                            </div>
+                                        </div>
+                                        <div class="bg-orange-fbb w-40 py-2 rounded-5 mx-auto">
+                                            <a href="/payment/cart" class="text-white">
+                                                XEM GIỎ HÀNG
+                                            </a>
+                                        </div>
+                                        <div class="cart-modal-pointer position-absolute text-white">
+                                            <i class="bi bi-caret-left-fill fs-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,14 +174,13 @@
 
 
 @switch($page)
-    @case('category')
-        @include('components/header/header-category')
-    @break
-    @case('product-detail')
-        @include('components/header/header-product-detail')
-    @break
-    @case('cart')
-        @include('components/header/header-cart')
-    @break
+@case('category')
+@include('components/header/header-category')
+@break
+@case('product-detail')
+@include('components/header/header-product-detail')
+@break
+@case('cart')
+@include('components/header/header-cart')
+@break
 @endswitch
-

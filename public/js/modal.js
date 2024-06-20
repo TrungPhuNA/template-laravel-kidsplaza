@@ -8,6 +8,28 @@ var options = {
   backdrop: true,
   keyboard: true
 };
+// Lấy data ở đường dẫn /storage/app/database/product.json
+var products = $.ajax({
+  url: 'database/products.json',
+  method: 'GET',
+  async: false
+}).responseJSON;
+var outsan_product = products['outsan_product'];
+// console.log('--- products ---', );
+
+// Tìm kiếm dữ liệu theo id 
+function getProductById(id) {
+  var product = outsan_product.find(function (item) {
+    return item.id == id;
+  });
+  return product;
+}
+var data = {
+  img: '',
+  name: '',
+  price: '',
+  author: ''
+};
 var register = new bootstrap.Modal(document.getElementById('registerModal'), options);
 var login = new bootstrap.Modal(document.getElementById('loginModal'), options);
 var productDisplay = new bootstrap.Modal(document.getElementById('productDisplay'), options);
@@ -21,11 +43,6 @@ function resetModal(modalSelector) {
 }
 resetModal('#registerModal');
 resetModal('#loginModal');
-
-// Hiển thị modal khi click vào các nút liên quan
-$('.product-display').on('click', function () {
-  productDisplay.show();
-});
 $('.registerModal').on('click', function () {
   register.show();
   login.hide();
@@ -33,6 +50,23 @@ $('.registerModal').on('click', function () {
 $('.loginModal').on('click', function () {
   login.show();
   register.hide();
+});
+var idProduct = '';
+$('.product-display').on('click', function () {
+  idProduct = $(this).attr('id');
+  productDisplay.show();
+});
+$('#productDisplay').on('show.bs.modal', function (event) {
+  var _data$price;
+  // Được chạy khi modal sắp được show
+  var data = getProductById(idProduct);
+  var price = (_data$price = data.price) !== null && _data$price !== void 0 ? _data$price : 0;
+  price = price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'); // Đây là sử dụng regex để thêm dấu chấm vào giữa các số hàng nghìn của giá sản phẩm
+  // /\B(?=(\d{3})+(?!\d))/g là regex để tìm các chỗ không phải là word boundary (không phải là chữ số) và sau đó là 3 chữ số liên tiếp và không phải là chữ số
+
+  $('#productDisplay').find('.modal-img-avatar').attr('src', data.img);
+  $('#productDisplay').find('.modal-title').text(data.name);
+  $('#productDisplay').find('.modal-product-right-price').text(price + 'đ');
 });
 
 // Xử lý submit form đăng ký

@@ -30,3 +30,7 @@
   border-radius: 5px;
   transition: width 1s ease;
 }
+
+.dropdown .dropdown-menu {
+  z-index: 10;
+}

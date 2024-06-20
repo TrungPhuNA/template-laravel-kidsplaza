@@ -424,6 +424,7 @@
     "propertie_categroy": [
         {
             "propertie_name": "Khoảng giá",
+            "propertie_param": "khoanggia",
             "propertie_detal": [
                 0,
                 7000000
@@ -431,6 +432,7 @@
         },
         {
             "propertie_name": "Dung tích",
+            "propertie_param": "dungtich",
             "propertie_detal": [
                 "180ml",
                 "1000ml",
@@ -446,6 +448,7 @@
         },
         {
             "propertie_name": "Độ tuổi",
+            "propertie_param": "dotuoi",
             "propertie_detal": [
                 "1Y+",
                 "0M+",
@@ -455,6 +458,7 @@
         },
         {
             "propertie_name": "Màu sắc",
+            "propertie_param": "mausac",
             "propertie_detal": [
                 "Màu hồng",
                 "Nhiều màu",
@@ -470,6 +474,7 @@
         },
         {
             "propertie_name": "Xuất xứ",
+            "propertie_param": "xuatxu",
             "propertie_detal": [
                 "Việt Nam",
                 "Trung Quốc",
@@ -485,6 +490,7 @@
         },
         {
             "propertie_name": "Thương hiệu",
+            "propertie_param": "thuonghieu",
             "propertie_detal": [
                 "Kidsplaza",
                 "Chính Hãng",
@@ -506,6 +512,7 @@
         },
         {
             "propertie_name": "Khối lượng",
+            "propertie_param": "khoiluong",
             "propertie_detal": [
                 "400g",
                 "500g",
@@ -521,6 +528,7 @@
         },
         {
             "propertie_name": "Kích thước",
+            "propertie_param": "kichthuoc",
             "propertie_detal": [
                 "XL",
                 "S42",

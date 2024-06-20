@@ -48,8 +48,23 @@
   height: -webkit-fill-available;
   z-index: 1;
 }
+.navbar .cart-modal {
+  display: none;
+  width: 450px;
+  left: -20rem;
+  top: 4rem;
+  z-index: 99;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.navbar .cart-modal .cart-modal-pointer {
+  top: -9%;
+  right: 19%;
+  transform: rotate(89deg);
+}
 
-.header-category, .header-product {
+.header-category,
+.header-product {
   z-index: 99;
   width: 100%;
   background: white;

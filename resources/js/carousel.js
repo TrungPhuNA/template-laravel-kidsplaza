@@ -72,9 +72,9 @@ initializeOwlCarousel('.frame-product-layout-owl-carousel', {
 });
 
 initializeOwlCarousel('.useful-information-owl-carousel', {
-    loop: true,
+    loop: false,
     items: 4,
-    margin: 20,
+    margin: 27,
     nav: true,
     dots: false,
     navText: navText,
