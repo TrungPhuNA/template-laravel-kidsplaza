@@ -3,29 +3,6 @@ var options = {
     backdrop: true,
     keyboard: true
 };
-// Lấy data ở đường dẫn /storage/app/database/product.json
-var products = $.ajax({
-    url: 'database/products.json',
-    method: 'GET',
-    async: false,
-}).responseJSON;
-var outsan_product = products['outsan_product']
-// console.log('--- products ---', );
-
-// Tìm kiếm dữ liệu theo id 
-function getProductById(id) {
-    var product = outsan_product.find(function (item) {
-        return item.id == id;
-    });
-    return product;
-}
-
-var data = {
-    img: '',
-    name: '',
-    price: '',
-    author: '',
-};
 
 var register = new bootstrap.Modal(document.getElementById('registerModal'), options);
 var login = new bootstrap.Modal(document.getElementById('loginModal'), options);
@@ -52,20 +29,32 @@ $('.loginModal').on('click', function () {
 });
 
 
+var products = $.ajax({
+    url: 'database/products.json',
+    method: 'GET',
+    async: false,
+}).responseJSON;
+
+// Tìm kiếm dữ liệu theo id 
+function getProductById(id,products) {
+    var product = products.find(function (item) {
+        return item.id == id;
+    });
+    return product;
+}
+
 var idProduct = '';
+var outsan_product = products['outsan_product'];
+
 $('.product-display').on('click', function () {
     idProduct = $(this).attr('id');
     productDisplay.show();    
 });
 
 $('#productDisplay').on('show.bs.modal', function (event) { // Được chạy khi modal sắp được show
-    var data = getProductById(idProduct);
+    var data = getProductById(idProduct,outsan_product);
     var price = data.price ?? 0;
-    price = price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'); // Đây là sử dụng regex để thêm dấu chấm vào giữa các số hàng nghìn của giá sản phẩm
-    // /\B(?=(\d{3})+(?!\d))/g là regex để tìm các chỗ không phải là word boundary (không phải là chữ số) và sau đó là 3 chữ số liên tiếp và không phải là chữ số
-
-    
-    
+    price = price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'); // Đây là sử dụng regex để thêm dấu chấm vào giữa các số hàng nghìn của giá sản phẩm    
     $('#productDisplay').find('.modal-img-avatar').attr('src', data.img);
     $('#productDisplay').find('.modal-title').text(data.name);
     $('#productDisplay').find('.modal-product-right-price').text(price + 'đ');

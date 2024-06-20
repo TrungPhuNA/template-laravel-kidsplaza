@@ -139,6 +139,7 @@
     ],
     "diapers_hygiene": [
         {
+            "id": 7,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-dan-hoppi-airdream-size-s-56-mieng-cho-be-4-8kg-1.jpg",
             "name": "Bỉm - Tã dán Hoppi Airdream size S 56 miếng (cho bé 4 - 8kg)",
             "author": "Hoppi",
@@ -147,6 +148,7 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 8,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-quan-huggies-skin-perfect-size-l60-66-mieng-cho-be-9-14kg-1.jpg",
             "name": "Bỉm - Tã quần Huggies Skin Perfect size L60-66 miếng (cho bé 9 - 14kg)",
             "author": "Huggies",
@@ -155,6 +157,7 @@
             "sub": ""
         },
         {
+            "id": 9,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-dan-megumi-size-m-46-mieng-cho-be-6-11kg-1.jpg",
             "name": "Bỉm - Tã dán Megumi size M 46 miếng (Cho bé 6-11kg)",
             "author": "Megumi",
@@ -163,6 +166,7 @@
             "sub": ""
         },
         {
+            "id": 10,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-dan-megumi-size-newborn-64-mieng-cho-be-5kg-15.jpg",
             "name": "Bỉm tã dán Megumi size NewBorn 64 miếng (Cho bé dưới 5kg)",
             "author": "Megumi",
@@ -171,6 +175,7 @@
             "sub": ""
         },
         {
+            "id": 11,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-quan-bobby-mo-mot-ben-size-newborn-s74-mieng-cho-be-tu-3-8kg-1.jpg",
             "name": "Bỉm - tã quần Bobby mở một bên size NewBorn S74 miếng (cho bé dưới 5kg)",
             "author": "Bobby",
@@ -179,6 +184,7 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 12,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-quan-molfix-ultra-jumbo-size-m-76-8-cho-be-tu-6-11kg-1a_1.jpg",
             "name": "Bỉm - Tã quần Molfix Ultra Jumbo size M 76 cho bé từ 6-11kg",
             "author": "Molfix",
@@ -187,6 +193,7 @@
             "sub": ""
         },
         {
+            "id": 13,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-dan-goldgi-x5-size-m-66-mieng-cho-be-6-11kg-1.jpg",
             "name": "Bỉm - Tã dán Goldgi+ X5 size M 66 miếng (cho bé 6-11kg)",
             "author": "Goldgi+",
@@ -195,6 +202,7 @@
             "sub": ""
         },
         {
+            "id": 14,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-dan-goldgi-nb-92-mieng-cho-be-duoi-5kg.jpg",
             "name": "Bỉm - Tã dán Goldgi+ NB 92 miếng cho bé dưới 5kg",
             "author": "Goldgi+",
@@ -266,22 +274,6 @@
             "price": 449000,
             "discount": 0,
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        }
-    ],
-
-    "products": [
-        {
-            "id": "1",
-            "category_id": "",
-            "status": "",
-            "name": "",
-            "avater": "",
-            "image_other": "",
-            "note": "",
-            "desc": "",
-            "amount": "",
-            "price": "",
-            "review_total": ""
         }
     ]
 }
