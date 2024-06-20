@@ -16,6 +16,7 @@ const navText = [
 ];
 
 // Khởi tạo các carousels với các cấu hình khác nhau
+<<<<<<< HEAD
 initializeOwlCarousel('.product-detail-owl-carousel', { 
     loop: false,
     items: 1,
@@ -26,6 +27,8 @@ initializeOwlCarousel('.product-detail-owl-carousel', {
 });
 
 
+=======
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 initializeOwlCarousel('.header-center-owl-carousel', {
     loop: true,
     items: 1,
@@ -82,9 +85,15 @@ initializeOwlCarousel('.frame-product-layout-owl-carousel', {
 });
 
 initializeOwlCarousel('.useful-information-owl-carousel', {
+<<<<<<< HEAD
     loop: false,
     items: 4,
     margin: 27,
+=======
+    loop: true,
+    items: 4,
+    margin: 20,
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
     nav: true,
     dots: false,
     navText: navText,
@@ -163,7 +172,11 @@ initializeOwlCarousel('.outstan-brand-sm-owl-carousel', {
 initializeOwlCarousel('.outstan-banner-sm-owl-carousel', {
     loop: true,
     items: 2,
+<<<<<<< HEAD
     margin: 15,
+=======
+    margin: 25,
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
     nav: false,
     dots: false
 });

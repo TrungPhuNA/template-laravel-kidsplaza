@@ -100,7 +100,11 @@
                 @endforeach
             </ul>
         </div>
+<<<<<<< HEAD
         <div class="col-8 bg-white p-3 shadow00 rounded-4 h-fit-content">
+=======
+        <div class="col-8 bg-white box-p shadow00 rounded-4 h-fit-content">
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
             <div class="customer-order-title text-center fw-semibold fs-4 text-bule204 mb-5">@yield('title-customer')</div>
             @yield('content-customer')
         </div>

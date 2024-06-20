@@ -1,5 +1,9 @@
 .product-promotional {
+<<<<<<< HEAD
   min-height: 437px;
+=======
+  min-height: 428px;
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 }
 .product-promotional .product-promotional-tag div {
   background-color: #e90000;
@@ -42,8 +46,11 @@
     width: 80% !important;
   }
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 552px) {
   .product-promotional {
     min-height: 385px;
   }
 }
+=======
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0

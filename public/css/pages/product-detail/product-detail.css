@@ -6,6 +6,7 @@
 .product-detail-col-right .benefits-list li {
   font-size: 14px;
 }
+<<<<<<< HEAD
 
 .product-detail-owl-carousel .owl-nav button {
   position: absolute;
@@ -17,3 +18,5 @@
 .product-detail-owl-carousel .owl-nav button:nth-child(2) {
   right: 3%;
 }
+=======
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0

@@ -4,11 +4,19 @@
         <div class="modal-content">
             <div class="modal-header">
                 <div class="d-flex align-items-center modal-product w-100 py-2 mx-1">
+<<<<<<< HEAD
                     <div class="text-center modal-product-left ">
                         <img class="border p-2 modal-img-avatar" src="https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-aptamil-profutuna-kid-cesarbiotik-so-3-800g-2y-1.jpg" width="130" height="auto" />
                     </div>
                     <div class="px-0 modal-product-right">
                         <div class="lh-sm fw-semibold text-bule204 modal-product-right-title modal-title">Sữa Aptamil Profutura KID Cesarbiotik số 3 800g (2Y+)</div>
+=======
+                    <div class="text-center modal-product-left">
+                        <img class="border p-2" src="https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-aptamil-profutuna-kid-cesarbiotik-so-3-800g-2y-1.jpg" width="130" height="auto" />
+                    </div>
+                    <div class="px-0 modal-product-right">
+                        <div class="lh-sm fw-semibold text-bule204 modal-product-right-title">Sữa Aptamil Profutura KID Cesarbiotik số 3 800g (2Y+)</div>
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                         <div class="d-flex modal-product-right-sub my-1">
                             <div class="border-end border-2 pe-2 me-2">Thương hiệu: <span class="text-bule204">
                                     Aptamil
@@ -40,7 +48,11 @@
                 <div class="modal-product row">
                     <div class="col-xl col-lg p-4 pt-0 position-relative modal-product-left">
                         <div>
+<<<<<<< HEAD
                             <img class="modal-img-avatar" src="https://cdn-v2.kidsplaza.vn/media/catalog/product/s/u/sua-aptamil-profutuna-kid-cesarbiotik-so-3-800g-2y-2.jpg" width="100%" height="auto" />
+=======
+                            <img src="https://cdn-v2.kidsplaza.vn/media/catalog/product/s/u/sua-aptamil-profutuna-kid-cesarbiotik-so-3-800g-2y-2.jpg" width="100%" height="auto" />
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                         </div>
                         <div class="list-img row align-items-center mb-4">
                             @foreach(
@@ -57,6 +69,7 @@
                             </div>
                             @endforeach
                         </div>
+<<<<<<< HEAD
                         <div class="d-sm-none d-lg-block">
                             <div class="d-flex justify-content-between ">
                                 <div class="d-flex align-items-center gap-2">
@@ -74,6 +87,23 @@
                                     <div class="">
                                         Yêu thích <span class="text-bule204">(30)</span>
                                     </div>
+=======
+                        <div class="d-flex justify-content-between d-sm-none d-lg-block">
+                            <div class="d-flex align-items-center gap-2">
+                                <div>Chia sẻ:</div>
+                                <div>
+                                    @foreach(
+                                    ['https://www.kidsplaza.vn/assets/icons/messenger-icon.png','https://www.kidsplaza.vn/assets/icons/facebook-icon.png','https://www.kidsplaza.vn/assets/icons/twitter-icon.png'] as $icon
+                                    )
+                                    <img class="mx-1" src="{{ $icon }}" width="25" height="auto" />
+                                    @endforeach
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-heart fs-5 text-bule204"></i>
+                                <div class="">
+                                    Yêu thích <span class="text-bule204">(30)</span>
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                                 </div>
                             </div>
                         </div>
@@ -85,7 +115,11 @@
                         </div>
                     </div>
                     <div class="col-xl col-lg ps-4 modal-product-right d-sm-none d-lg-block">
+<<<<<<< HEAD
                         <div class="fs-3 lh-sm fw-semibold text-bule204 modal-product-right-title modal-title">Sữa Aptamil Profutura KID Cesarbiotik số 3 800g (2Y+)</div>
+=======
+                        <div class="fs-3 lh-sm fw-semibold text-bule204 modal-product-right-title">Sữa Aptamil Profutura KID Cesarbiotik số 3 800g (2Y+)</div>
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                         <div class="d-flex modal-product-right-sub my-1">
                             <div class="border-end border-2 pe-2 me-2">Thương hiệu: <span class="text-bule204">
                                     Aptamil
@@ -103,7 +137,11 @@
                         <div class="mt-3">
                             <div class="d-flex align-items-center gap-2">
                                 <img src="{{ asset('images/icons/active-gift.png') }}" alt="" width="25" height="auto" />
+<<<<<<< HEAD
                                 <div id="modalTitle" class="fw-semibold text-bule204 pt-1">Quà tặng</div>
+=======
+                                <div class="fw-semibold text-bule204 pt-1">Quà tặng</div>
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                             </div>
                             <div class="my-2">
                                 @foreach(

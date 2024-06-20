@@ -48,6 +48,7 @@
   height: -webkit-fill-available;
   z-index: 1;
 }
+<<<<<<< HEAD
 .navbar .cart-modal {
   display: none;
   width: 450px;
@@ -65,6 +66,10 @@
 
 .header-category,
 .header-product {
+=======
+
+.header-category, .header-product {
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
   z-index: 99;
   width: 100%;
   background: white;
@@ -105,7 +110,11 @@
   }
   .navbar .navbar-top .welcome {
     bottom: -9%;
+<<<<<<< HEAD
     left: 6%;
+=======
+    left: 5.5%;
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
     width: 93%;
     z-index: 10;
   }

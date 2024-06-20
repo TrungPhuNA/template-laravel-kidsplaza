@@ -15,9 +15,21 @@ function resetModal(modalSelector) {
         $(this).find('.box-input div').text('');
     });
 }
+<<<<<<< HEAD
 resetModal('#registerModal');
 resetModal('#loginModal');
 
+=======
+
+resetModal('#registerModal');
+resetModal('#loginModal');
+
+// Hiển thị modal khi click vào các nút liên quan
+$('.product-display').on('click', function () {
+    productDisplay.show();
+});
+
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 $('.registerModal').on('click', function () {
     register.show();
     login.hide();
@@ -29,6 +41,7 @@ $('.loginModal').on('click', function () {
 });
 
 
+<<<<<<< HEAD
 var products = $.ajax({
     url: 'database/products.json',
     method: 'GET',
@@ -72,6 +85,8 @@ $('#productDisplay').on('show.bs.modal', function (event) { // Được chạy k
 
 
 
+=======
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 // Xử lý submit form đăng ký
 function handleFormSubmit(formSelector, url, successMessage, modalToHide, modalToShow) {
     $(formSelector).on('submit', function (e) {

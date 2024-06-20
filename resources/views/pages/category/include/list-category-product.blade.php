@@ -10,10 +10,17 @@
             
         </div>
     </div>
+<<<<<<< HEAD
     <div class="box-m-top-bottom bg-white rounded-4 box-p list-category-product"> 
         <div class="d-md-none-x">
             <div class="d-flex justify-content-between align-items-center">
                 <x-title-frame-web title="Mẹ bầu và sau sinh" :nav="['']" />
+=======
+    <div class="box-m-top-bottom box-p bg-white rounded-4">
+        <div class="d-md-none-x">
+            <div class="d-flex justify-content-between align-items-center">
+                <x-title-frame-web :title="'Mẹ bầu và sau sinh'" :nav="['']" />
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                 <div class="fw-semibold text-bule204 d-flex align-items-center gap-2">
                     <i class="bi bi-filter"></i>
                     <div class="fs-6">Sắp xếp theo</div>
@@ -21,12 +28,19 @@
             </div>
         </div>
         <div class="row box-m-top-bottom justify-content-center">
+<<<<<<< HEAD
             @foreach($products as $key => $product)
             <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6 list-product-item px-0">
                 <div class="p-3 p-xs-2">
                     @include('components/product-display',[
                         'product' => $product,
                     ])
+=======
+            @foreach([1,2,3,4,5,6,7,8,9,10,11,12] as $key => $product)
+            <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6 list-product-item px-0">
+                <div class="p-2">
+                    @include('components/product-display')
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                 </div>
             </div>
             @endforeach

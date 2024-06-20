@@ -2,12 +2,15 @@
     <link href="{{ asset('css/pages/product-detail/product-detail.css') }}" rel="stylesheet">
 @endsection
 
+<<<<<<< HEAD
 @php
     $data_products = json_decode(file_get_contents(storage_path('products.json')), true);
     $viewd_product = $data_products['viewd_product'];
     $products_just_for_you = $data_products['products_just_for_you'];
 @endphp
 
+=======
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 @extends('layouts')
 @section('title', 'Chi tiết sản phẩm')
 @section('content')
@@ -83,12 +86,19 @@
         </section>
     </div>
     <div class="d-xs-none d-sm-none d-lg-block">
+<<<<<<< HEAD
         <x-products-just-for-you bg="bg-blue-d1" :data="$products_just_for_you" carousel="carousel" />
     </div>
     <div class="d-sm-none d-lg-block">
         @include('components/viewed-the-product',[
             'products' => $viewd_product,
         ])
+=======
+        <x-products-just-for-you bg="bg-blue-d1" carousel="carousel" />
+    </div>
+    <div class="d-sm-none d-lg-block">
+        @include('components/viewed-the-product')
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
     </div>
     <x-bottom-nav-bar page="product-detail" :data="[]" />
 </div>

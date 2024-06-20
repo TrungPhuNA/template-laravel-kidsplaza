@@ -1,7 +1,11 @@
 <section class="section-wrapper">
     <div class="bg-white box-p rounded-4 mb-4">
         <div class="border-bottom pb-3 mb-3">
+<<<<<<< HEAD
             <x-title-frame-web title="Đánh giá và nhận xét sản phẩm" :nav="''" />
+=======
+            <x-title-frame-web :title="'Đánh giá và nhận xét sản phẩm'" :nav="''" />
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
         </div>
         <div class="row align-items-center gap-2">
             <div class="col-2 col-xs-12">

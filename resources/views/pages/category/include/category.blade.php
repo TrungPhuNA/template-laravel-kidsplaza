@@ -4,7 +4,11 @@
 
 <section class="section-wrapper ">
     <div class="bg-white box-p rounded-4 shadow-sm">
+<<<<<<< HEAD
         <x-title-frame-web title="Danh mục" :nav="['']" />
+=======
+        <x-title-frame-web :title="'Danh mục'" :nav="['']" />
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
         <div class="list-category-page row justify-content-between gap-3 gap-xs-0 px-1 box-m-top-bottom">
             @foreach($data_static['list_category_page'] as $key => $category
             )

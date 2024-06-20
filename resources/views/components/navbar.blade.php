@@ -1,8 +1,15 @@
 @php
+<<<<<<< HEAD
 $hideOnCertainPages = in_array($page, ['category', 'product-detail', 'cart']);
 $headerClass = $hideOnCertainPages ? 'd-md-none-x' : '';
 $data_static = json_decode(file_get_contents(storage_path('data-static.json')), true);
 $navbar_bottom = $data_static['navbar-bottom'];
+=======
+    $hideOnCertainPages = in_array($page, ['category', 'product-detail', 'cart']);
+    $headerClass = $hideOnCertainPages ? 'd-md-none-x' : '';
+    $data_static = json_decode(file_get_contents(storage_path('app/database/data-static.json')), true);
+    $navbar_bottom = $data_static['navbar-bottom'];
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 @endphp
 
 <header class="bg-cF {{ $headerClass }}">
@@ -32,7 +39,11 @@ $navbar_bottom = $data_static['navbar-bottom'];
     <div class="navbar navbar-wrap pt-0 pb-2">
         <div class="navbar-top w-100 position-relative">
             <div class="container p-0 navbar-top-content">
+<<<<<<< HEAD
                 <div class="row justify-content-between align-items-center px-4 py-3">
+=======
+                <div class="row justify-content-between align-items-center px-3 py-3">
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                     <div class="col-xl-2 col-md-3 col-lg-3 d-xs-none px-0 cup">
                         <a href="/">
                             <img src="{{ asset('images/Logo_header.png') }}" alt="logo" width="100%" height="auto">
@@ -70,12 +81,18 @@ $navbar_bottom = $data_static['navbar-bottom'];
                                 <p class="">Tài khoản</p>
                             </x-button>
                         </div>
+<<<<<<< HEAD
                         <div class="text-center cup navbar-cart">
                             <div class="position-relative">
+=======
+                        <div class="text-center cup ">
+                            <a href="/payment/cart">
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                                 <div class="relative">
                                     <x-svg-icon name="cart" />
                                 </div>
                                 <p class="d-xs-none">Giỏ hàng</p>
+<<<<<<< HEAD
                                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
                                     1
                                 </span>
@@ -111,6 +128,9 @@ $navbar_bottom = $data_static['navbar-bottom'];
                                     </div>
                                 </div>
                             </div>
+=======
+                            </a>
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
                         </div>
                     </div>
                 </div>
@@ -174,6 +194,7 @@ $navbar_bottom = $data_static['navbar-bottom'];
 
 
 @switch($page)
+<<<<<<< HEAD
 @case('category')
 @include('components/header/header-category')
 @break
@@ -184,3 +205,16 @@ $navbar_bottom = $data_static['navbar-bottom'];
 @include('components/header/header-cart')
 @break
 @endswitch
+=======
+    @case('category')
+        @include('components/header/header-category')
+    @break
+    @case('product-detail')
+        @include('components/header/header-product-detail')
+    @break
+    @case('cart')
+        @include('components/header/header-cart')
+    @break
+@endswitch
+
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0

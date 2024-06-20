@@ -31,6 +31,7 @@ $(document).ready(function () {
     toggleContent('.product-des-see-more', '.product-des-content-wrap .product-des-content', '550px');
     toggleContent('.modal-product-more', '#productDisplay .modal-product-des', '550px');
 
+<<<<<<< HEAD
     $('.dropdown-toggle').each(function () {
         var dropdownToggle = $(this);
         var dropdownMenu = dropdownToggle.next('.dropdown-menu');
@@ -89,4 +90,12 @@ $(document).ready(function () {
     
 
 
+=======
+    $('.dropdown-toggle').map(function () {
+        $(this).on('click', function () {
+            console.log('--- DATA ---', $(this).next('.dropdown-menu'));
+            $(this).next('.dropdown-menu').toggle();
+        });
+    })
+>>>>>>> 9eb8b8205b9848d613fe2d15ffe370f700a51dc0
 });
