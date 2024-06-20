@@ -15,5 +15,8 @@
 @media (max-width: 576px) {
     .list-product-home{
         background-color:white;
+        .list-product-home-wrap{
+            margin: 0.5rem 0; 
+        }
     }
 }

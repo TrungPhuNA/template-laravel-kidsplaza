@@ -6,3 +6,14 @@
 .product-detail-col-right .benefits-list li {
   font-size: 14px;
 }
+
+.product-detail-owl-carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+}
+.product-detail-owl-carousel .owl-nav button:nth-child(1) {
+  left: 3%;
+}
+.product-detail-owl-carousel .owl-nav button:nth-child(2) {
+  right: 3%;
+}

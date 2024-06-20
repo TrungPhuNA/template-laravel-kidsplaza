@@ -21,10 +21,12 @@
             </div>
         </div>
         <div class="row box-m-top-bottom justify-content-center">
-            @foreach([1,2,3,4,5,6,7,8,9,10,11,12] as $key => $product)
+            @foreach($products as $key => $product)
             <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6 list-product-item px-0">
-                <div class="p-2">
-                    @include('components/product-display')
+                <div class="p-3">
+                    @include('components/product-display',[
+                        'product' => $product,
+                    ])
                 </div>
             </div>
             @endforeach

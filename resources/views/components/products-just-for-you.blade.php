@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="container px-0">
-            <div class="box-p px-0">
+            <div class="products-just-for-you-wrap box-p px-0">
                 <div class="d-xs-none">
                     <x-title-frame-web title="Sản phẩm dành riêng cho bạn" :nav="['']" />
                 </div>
@@ -20,7 +20,9 @@
                     <div class="row category-list-product-owl-carousel owl-carousel owl-theme list-product box-m-top-bottom gap-4">
                         @foreach($data as $key => $item)
                         <div class="col px-0 item">
-                            @include('components/product-display')
+                            @include('components/product-display',[
+                                'product' => $item
+                                ])
                         </div>
                         @endforeach
                     </div>
@@ -28,7 +30,7 @@
                 <div class="row list-product box-m-top-bottom">
                     @foreach($data as $key => $item)
                     <div class="col-xl-20 col-lg-3 col-md-4 col-xs-6 px-0">
-                        <div class="p-3">
+                        <div class="p-3 p-xs-2">
                         @include('components/product-display',[
                             'product' => $item
                             ])
@@ -37,7 +39,16 @@
                     @endforeach
                 </div>
                 @endif
-                <x-button class="d-flex gap-1 align-items-center bg-bule23-hover border text-white bg-bule204 list-product-view-all rounded-5 px-4 py-2 fw-semibold mx-auto" text="Xem tất cả" icon="bi bi-chevron-right" iconPosition="right" />
+                <div class="d-xs-none">
+                    <x-button
+                        class="d-flex mx-auto gap-1 align-items-center text-white bg-bule204 list-product-view-all rounded-5 px-4 py-2 fw-semibold border bg-bule23-hover"
+                        text="Xem tất cả" icon="bi bi-chevron-right" iconPosition="right" />
+                </div>
+                <div class="d-sm-none mb-2">
+                    <x-button
+                        class="d-flex mx-auto  gap-1 align-items-center border-0 text-bule204 list-product-view-all rounded-5 px-4 py-2 bg-white"
+                        text="Xem tất cả" icon="bi bi-chevron-right" iconPosition="right" />
+                </div>
             </div>
         </div>
     </div>

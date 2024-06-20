@@ -24,4 +24,14 @@
   .list-category .category-item > div:nth-child(1) {
     height: auto;
   }
+  .outstan-category {
+    margin: 0 1rem;
+  }
+  .outstan-category .list-category {
+    margin: 0.5rem 0;
+  }
+  .outstan-category .bar-category {
+    margin-top: 0rem !important;
+    margin-bottom: 0.5rem;
+  }
 }

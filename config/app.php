@@ -57,7 +57,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL'),
+    'asset_url' => env('ASSET_URL'), // Dùng để tạo URL cho các file tĩnh như CSS, JS, images
 
     /*
     |--------------------------------------------------------------------------

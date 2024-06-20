@@ -13,4 +13,11 @@
   .products-just-for-you {
     background-color: white !important;
   }
+  .products-just-for-you .products-just-for-you-wrap {
+    padding: 0.25rem !important;
+  }
+  .products-just-for-you .products-just-for-you-wrap .list-product {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
 }

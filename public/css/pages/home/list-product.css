@@ -14,4 +14,7 @@
   .list-product-home {
     background-color: white;
   }
+  .list-product-home .list-product-home-wrap {
+    margin: 0.5rem 0;
+  }
 }

@@ -8,3 +8,18 @@
         }
     }   
 }
+
+.product-detail-owl-carousel {
+    .owl-nav {
+        button {
+            position: absolute;
+            top: 50%;
+        }
+        button:nth-child(1) {
+            left: 3%;
+        }
+        button:nth-child(2) {
+            right: 3%;
+        }
+    }
+}

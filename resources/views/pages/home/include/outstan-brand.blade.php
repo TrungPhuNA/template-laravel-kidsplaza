@@ -30,7 +30,7 @@
             </div>
             @endforeach
         </div>
-        <div class="outstan-banner-sm-owl-carousel owl-carousel owl-theme">
+        <div class="outstan-banner-sm-owl-carousel outstan-banner-sm-owl-carousel-wrap owl-carousel owl-theme">
             @foreach([
                 'https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/k/v/kv_dss_19k_home_web_698x296_6.png',
                 'https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_home_m_i-me-bau-den-la-tang-t6_1.png',
@@ -39,7 +39,7 @@
                 'https://cdn-v2.kidsplaza.vn/media/mageplaza/bannerslider/banner/image/b/n/bn-home-web.png'
             ] as $item)
             <div class="item">
-                <img class="rounded-4" src="{{ $item }}" alt="img" width="100%" height="200">
+                <img class="rounded-3" src="{{ $item }}" alt="img" width="100%" height="150px">
             </div>
             @endforeach
         </div>

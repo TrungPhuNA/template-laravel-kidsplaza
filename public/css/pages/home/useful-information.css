@@ -21,6 +21,11 @@
 @media (max-width: 576px) {
   .useful-information-item .useful-information-content > div:nth-child(1) {
     font-size: 0.7rem;
+    height: 34px;
+    overflow: hidden;
+  }
+  .useful-information-item .useful-information-content > div:nth-child(2) {
+    font-size: 10px;
   }
   .useful-information-more {
     font-size: 12px;

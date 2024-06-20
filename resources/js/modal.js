@@ -44,7 +44,12 @@ function getProductById(id,products) {
 }
 
 var idProduct = '';
+var productArray = [];
 var outsan_product = products['outsan_product'];
+var diapers_hygiene = products['diapers_hygiene'];
+var milk_for_babie = products['milk_for_babie'];
+productArray.push(outsan_product,diapers_hygiene,milk_for_babie);
+
 
 $('.product-display').on('click', function () {
     idProduct = $(this).attr('id');
@@ -52,7 +57,10 @@ $('.product-display').on('click', function () {
 });
 
 $('#productDisplay').on('show.bs.modal', function (event) { // Được chạy khi modal sắp được show
-    var data = getProductById(idProduct,outsan_product);
+    // concat la phuong thuc noi 2 mang lai voi nhau
+    // apply là phương thức gọi hàm với 1 mảng các tham số
+    var productArray = [].concat.apply([],Object.values(products));    
+    var data = getProductById(idProduct,productArray) ?? [];
     var price = data.price ?? 0;
     price = price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'); // Đây là sử dụng regex để thêm dấu chấm vào giữa các số hàng nghìn của giá sản phẩm    
     $('#productDisplay').find('.modal-img-avatar').attr('src', data.img);

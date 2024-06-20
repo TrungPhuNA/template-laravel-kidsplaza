@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div
-                class="header-conven-owl-carousel owl-carousel owl-theme row postions-relative bg-white mt-4 mx-1 rounded-4 p-3 p-xs-0 gap-3 lower-bar">
+                class="header-conven-owl-carousel owl-carousel owl-theme row justify-content-between postions-relative bg-white mt-4 mx-1 rounded-4 p-3 p-xs-0 gap-3 lower-bar">
                 @foreach ($data_static['header_tool'] as $key => $item)
                     <div class="lower-bar-item px-0 {{ $key == 0 ? 'd-sm-none' : '' }}">
                         <div class="mx-auto icon">

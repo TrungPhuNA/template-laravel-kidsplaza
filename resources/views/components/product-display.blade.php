@@ -41,13 +41,13 @@
                 @endif
             </div>
             <div class="mt-2 d-flex gap-2">
-                <div class="rounded-5 cup" style="border:1px solid #23C4F4;"><img src="{{ asset('images/fundiin-logo.png') }}" alt="" width="30" height="auto"></div>
-                <div class="rounded-5 cup border"><img src="{{ asset('images/vnpay-logo.png') }}" alt="" width="30" height="auto"></div>
-                <div class="rounded-5 cup border"><img src="{{ asset('images/shopeepay-logo.png') }}" alt="" width="30" height="auto"></div>
-                <div class="rounded-5 cup border"><img src="{{ asset('images/zalo.png') }}" alt="" width="30" height="auto"></div>
+                <div class="rounded-5 cup" style="border:1px solid #23C4F4;"><img src="{{ asset('images/fundiin-logo.png') }}" alt="" width="34" height="34"></div>
+                <div class="rounded-5 cup border"><img src="{{ asset('images/vnpay-logo.png') }}" alt="" width="34" height="34"></div>
+                <div class="rounded-5 cup border"><img src="{{ asset('images/shopeepay-logo.png') }}" alt="" width="34" height="34"></div>
+                <div class="rounded-5 cup border"><img src="{{ asset('images/zalo.png') }}" alt="" width="34" height="34"></div>
             </div>
-            <div class="product-display-detail-col-right-sub mt-2">
-                <div class="text-secondary">{{ $product['sub'] ?? '' }}</div>
+            <div class="product-display-detail-col-right-sub mt-2 mb-4">
+                <div class="text-secondary">{{ $product['sub'] ?? 'Giảm 50% tối đa 100K - Trả sau 0% lãi suất' }}</div>
                 <div class="text-secondary">Chưa có đánh giá</div>
             </div>
         </div>

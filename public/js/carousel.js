@@ -53,6 +53,14 @@ var _require = __webpack_require__(/*! ./functions/initializeOwlCarousel.js */ "
 var navText = ["\n    <div class=\"bg-white border rounded-5 py-1 px-2\">\n        <i class=\"bi bi-chevron-left\"></i>\n    </div>\n    ", "\n    <div class=\"bg-white border rounded-5 py-1 px-2\">\n        <i class=\"bi bi-chevron-right\"></i>\n    </div>    \n    "];
 
 // Khởi tạo các carousels với các cấu hình khác nhau
+initializeOwlCarousel('.product-detail-owl-carousel', {
+  loop: false,
+  items: 1,
+  margin: 10,
+  nav: true,
+  dots: false,
+  navText: navText
+});
 initializeOwlCarousel('.header-center-owl-carousel', {
   loop: true,
   items: 1,
@@ -188,7 +196,7 @@ initializeOwlCarousel('.outstan-brand-sm-owl-carousel', {
 initializeOwlCarousel('.outstan-banner-sm-owl-carousel', {
   loop: true,
   items: 2,
-  margin: 25,
+  margin: 15,
   nav: false,
   dots: false
 });

@@ -3,7 +3,7 @@
 @endpush
 
 <section class="section-wrapper">
-    <div class="bg-white box-p rounded-4 shadow-sm">
+    <div class="outstan-category bg-white box-p rounded-4 shadow-sm">
         <div class="d-xs-none">
             <x-title-frame-web title="Danh mục nổi bật" :nav="['']" />
         </div>

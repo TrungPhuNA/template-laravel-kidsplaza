@@ -1,30 +1,24 @@
+<link href="{{ asset('css/pages/product-detail/product-detail.css') }}" rel="stylesheet">
+
 <section class="section-wrapper">
   <div class="bg-white rounded-3 box-p rounded-4">
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-12">
-        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
+        <div>
+          <div class="product-detail-owl-carousel owl-carousel owl-theme">
             @foreach(
             [
-            'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-2.jpg',
-            'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-2.jpg',
-            'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-2.jpg',
-            'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-2.jpg'
+              'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-1.jpg',
+              'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-2.jpg',
+              'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-3.jpg',
+              'https://cdn-v2.kidsplaza.vn/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-4.jpg',
             ] as $key => $image
             )
-            <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
+            <div class="item">
               <img src="{{ $image }}" class="d-block w-100 product-image-main" alt="Main Product Image">
             </div>
             @endforeach
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
         <div class="d-sm-none d-xs-none d-lg-block">
           <div class="row gap-3 thumbnail-images">

@@ -83,7 +83,6 @@ $(document).ready(function () {
 
 
     // modal cart
-    console.log('--- DATA ---', $('.cart-modal'));
     $('.navbar-cart').on('click', function () {
         $('.cart-modal').toggle();
     });

@@ -1,5 +1,5 @@
 .product-promotional{
-    min-height: 428px;
+    min-height: 437px;
     .product-promotional-tag {
         div {
             background-color: #e90000;
@@ -48,5 +48,11 @@
         img{
             width: 80% !important;
         }
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .product-promotional {
+        min-height: 385px;
     }
 }

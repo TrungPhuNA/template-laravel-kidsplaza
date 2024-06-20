@@ -1,86 +1,4 @@
 {
-    "products_just_for_you": [
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-hipp-so-1-organic-combiotic-hmp-800gr-cho-be-tu-3-tuoi.jpg",
-            "name": "Sữa Hipp số 4 Organic Combiotic HMP 800g cho bé trên 3 tuổi",
-            "author": "Hipp",
-            "price": 675000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/o/son-lam-mem-moi-be-kiss-chuchu-1.jpg",
-            "name": "Son làm mềm môi bé Kiss Chuchu",
-            "author": "ChuChuBaby",
-            "price": 137000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/k/e/kem-duong-am-chuchu-baby-50gr-1.jpg",
-            "name": "Kem dưỡng ẩm ChuChuBaby 50g",
-            "author": "ChuChuBaby",
-            "price": 165000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/e/set-giuong-cui-cho-be-kidsplaza-natural-compact-568-4.jpg",
-            "name": "Set giường cũi KidsPlaza Natural Compact",
-            "author": "KidsPlaza",
-            "price": 1690000,
-            "discount": 6,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-quan-cho-be-huggies-xl62-20.jpg",
-            "name": "Bỉm quần cho bé Huggies XL60 (cho bé 12 - 17kg)",
-            "author": "Huggies",
-            "price": 355000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/t/a/ta-dan-huggies-platinum-sieu-cao-cap-nb60-2_1.jpg",
-            "name": "Tã dán Huggies Platinum siêu cao cấp NB (60 miếng dưới 5kg)",
-            "author": "Huggies",
-            "price": 260000,
-            "discount": 15,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-ba-bau-morinaga-vi-tra-sua-216-1.jpg",
-            "name": "Sữa bầu Morinaga vị trà sữa (216g)",
-            "author": "Morinaga",
-            "price": 225000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/t/a/ta-dan-huggies-platinum-sieu-cao-cap-s82-4-8kg-11.jpg",
-            "name": "Tã dán Huggies Platinum siêu cao cấp S (82 miếng cho bé từ 4-8kg)",
-            "author": "Huggies",
-            "price": 375000,
-            "discount": 27,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/5/3/5319_0_thuoc_tam_dao_spa_mama.jpg",
-            "name": "Thuốc tắm Dao'Spa Mama",
-            "author": "Dao'Spa Mama",
-            "price": 350000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        },
-        {
-            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/x/e/xe-tap-di-cho-be-mamago-walker-w1506ur6-1.jpg",
-            "name": "Xe tập đi cho bé Mamago Walker W1506UR6",
-            "author": "Mamago",
-            "price": 799000,
-            "discount": 0,
-            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        }
-    ],
     "outsan_product": [
         {
             "id": 1,
@@ -211,8 +129,101 @@
             "sub": ""
         }
     ],
+    "products_just_for_you": [
+        {
+            "id": 15,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-hipp-so-1-organic-combiotic-hmp-800gr-cho-be-tu-3-tuoi.jpg",
+            "name": "Sữa Hipp số 4 Organic Combiotic HMP 800g cho bé trên 3 tuổi",
+            "author": "Hipp",
+            "price": 675000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 16,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/o/son-lam-mem-moi-be-kiss-chuchu-1.jpg",
+            "name": "Son làm mềm môi bé Kiss Chuchu",
+            "author": "ChuChuBaby",
+            "price": 137000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 17,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/k/e/kem-duong-am-chuchu-baby-50gr-1.jpg",
+            "name": "Kem dưỡng ẩm ChuChuBaby 50g",
+            "author": "ChuChuBaby",
+            "price": 165000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 18,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/e/set-giuong-cui-cho-be-kidsplaza-natural-compact-568-4.jpg",
+            "name": "Set giường cũi KidsPlaza Natural Compact",
+            "author": "KidsPlaza",
+            "price": 1690000,
+            "discount": 6,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 19,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-quan-cho-be-huggies-xl62-20.jpg",
+            "name": "Bỉm quần cho bé Huggies XL60 (cho bé 12 - 17kg)",
+            "author": "Huggies",
+            "price": 355000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 20,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/t/a/ta-dan-huggies-platinum-sieu-cao-cap-nb60-2_1.jpg",
+            "name": "Tã dán Huggies Platinum siêu cao cấp NB (60 miếng dưới 5kg)",
+            "author": "Huggies",
+            "price": 260000,
+            "discount": 15,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 21,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-ba-bau-morinaga-vi-tra-sua-216-1.jpg",
+            "name": "Sữa bầu Morinaga vị trà sữa (216g)",
+            "author": "Morinaga",
+            "price": 225000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 22,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/t/a/ta-dan-huggies-platinum-sieu-cao-cap-s82-4-8kg-11.jpg",
+            "name": "Tã dán Huggies Platinum siêu cao cấp S (82 miếng cho bé từ 4-8kg)",
+            "author": "Huggies",
+            "price": 375000,
+            "discount": 27,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 23,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/5/3/5319_0_thuoc_tam_dao_spa_mama.jpg",
+            "name": "Thuốc tắm Dao'Spa Mama",
+            "author": "Dao'Spa Mama",
+            "price": 350000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 24,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/x/e/xe-tap-di-cho-be-mamago-walker-w1506ur6-1.jpg",
+            "name": "Xe tập đi cho bé Mamago Walker W1506UR6",
+            "author": "Mamago",
+            "price": 799000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        }
+    ],
     "milk_for_babie": [
         {
+            "id": 25,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-aptamil-profutura-so-1-800g-a.jpg",
             "name": "Sữa Aptamil Profutura số 1 800g của Đức cho trẻ từ 0-6 tháng ",
             "author": "Aptamil",
@@ -221,6 +232,7 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 26,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-aptamil-thanh-pre-measured-tabs-so-1-1.jpg",
             "name": "Sữa Aptamil thanh Pre Measured Tabs số 1",
             "author": "Aptamil",
@@ -229,6 +241,7 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 27,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-nan-expert-pro-lactose-free-thuy-si-1.jpg",
             "name": "Sữa Nan Expert Pro Lactose Free Thuỵ Sĩ ",
             "author": "Nestlé",
@@ -237,13 +250,16 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 28,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-aptamil-profutura-uc-so-3-900g-cho-be-12m-36-1.jpg",
             "name": "Sữa Aptamil Úc Profutura số 3 900g cho bé 12M-36M",
             "author": "Aptamil",
             "price": 850000,
             "discount": 0,
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
-        }, {
+        },
+        {
+            "id": 29,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-hikid-dang-vien-cho-be-3y-60-vien-a_2.jpg",
             "name": "Sữa Hikid dạng viên cho bé 3Y+",
             "author": "ILDONG FOODIS",
@@ -252,6 +268,7 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 30,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-blackmores-uc-so-1-900g-5.jpg",
             "name": "Sữa Blackmores Số 1 Úc 900g (0-6 tháng)",
             "author": "Blackmores",
@@ -260,6 +277,7 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 31,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-de-hikid-han-quoc-700g-cho-be-1-9-tuoi-1a.jpg",
             "name": "Sữa dê Hikid Hàn Quốc 650g cho bé 1-9 tuổi",
             "author": "ILDONG FOODIS",
@@ -268,10 +286,208 @@
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         },
         {
+            "id": 32,
             "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/_/m/_mg_0541.jpg",
             "name": "Sữa Meiji số 0 nội địa Nhật 800g cho bé 0-12M",
             "author": "Aptamil",
             "price": 449000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        }
+    ],
+    "category_product": [
+        {
+            "id": 32,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/m/a/may-hut-sua-dien-doi-medela-pump-instyle-ban-full-1_1.jpg",
+            "name": "Máy hút sữa điện đôi Medela Pump Instyle (bản full)",
+            "author": "Medela",
+            "price": 6490000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 33,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/o/bo-quan-ao-sau-sinh-kidsplaza-tm23-hong-1.jpg",
+            "name": "Bộ quần áo sau sinh KidsPlaza TM23 (Hồng)",
+            "author": "KidsPlaza",
+            "price": 271200,
+            "discount": 20,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 34,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/o/bot-ngu-coc-me-bau-babba-s-mommy-270g-1.jpg",
+            "name": "Bột ngũ cốc mẹ bầu Babba's Mommy 270g",
+            "author": "Babba's",
+            "price": 155000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 35,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/a/sat-sinh-hoc-ferrolip-20-1-8g-1.jpg",
+            "name": "Sắt sinh học Ferrolip 20x1.8g",
+            "author": "Ferrolip",
+            "price": 360000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 36,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/o/bo-quan-ao-cho-me-sau-sinh-kidsplaza-co-ren-tm23-xam-1.jpg",
+            "name": "Bộ quần áo cho mẹ sau sinh KidsPlaza có ren TM23 (Xám)",
+            "author": "KidsPlaza",
+            "price": 271200,
+            "discount": 20,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 37,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/o/bo-quan-ao-kipsplaza-cho-me-sau-sinh-co-ren-tim-tm23-1.jpg",
+            "name": "Bộ quần áo KipsPlaza cho mẹ sau sinh có ren (Tím) TM23",
+            "author": "KidsPlaza",
+            "price": 339000,
+            "discount": 20,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 38,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/o/bo-quan-ao-sau-sinh-kidsplaza-cho-me-co-ren-hong-cam-tm23-1.jpg",
+            "name": "Bộ quần áo sau sinh KidsPlaza cho mẹ có ren...",
+            "author": "KidsPlaza",
+            "price": 339000,
+            "discount": 20,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 39,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-glucerna-huong-vani-850g-100.jpg",
+            "name": "Combo 2 hộp sữa Glucerna Vani 850g cho người mắc bệnh đái tháo đường",
+            "author": "Abbott",
+            "price": 1778000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 40,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-glucerna-huong-vani-400g-100-a.jpg",
+            "name": "Combo 2 hộp sữa Glucerna Vani 400g cho người mắc bệnh đái tháo đường",
+            "author": "Abbott",
+            "price": 830000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 41,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/v/i/vien-uong-litho-plus-bo-sung-canxi-danh-cho-ba-bau-30-vien-11.jpg",
+            "name": "Viên uống Litho Plus bổ sung Canxi dành cho bà bầu (30 viên)",
+            "author": "Abbott",
+            "price": 360000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "id": 42,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/m/a/may-hut-sua-dien-doi-fatzbaby-resonance-3-plus-fb1161vn-10.jpg",
+            "name": "Máy hút sữa điện đôi FatzBaby Resonance 3 Plus + FB1161VN",
+            "author": "Fatz baby",
+            "price": 1412700,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+          },
+          {
+            "id": 43,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/v/i/vien-ngam-vitamin-c-healthy-care-500-vien-1.jpg",
+            "name": "Viên ngậm Vitamin C Healthy Care 500 viên",
+            "author": "Healthy Care",
+            "price": 495000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+          },
+          {
+            "id": 44,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/t/u/tui-tru-sua-baby-moby-240ml-24pcs-1.jpg",
+            "name": "Túi trữ sữa Baby Moby 240ml 24pcs",
+            "author": "Baby Moby",
+            "price": 172500,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+          },
+          {
+            "id": 45,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/t/u/tui-tru-sua-baby-moby-240ml-24pcs-1.jpg",
+            "name": "Túi trữ sữa Baby Moby 150ml 30pcs",
+            "author": "Baby Moby",
+            "price": 172500,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+          },
+          {
+            "id": 46,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/v/i/vitamin-me-bau-pregnacare-orginal-hop-30v-2.jpg",
+            "name": "Vitamin mẹ bầu Pregnacare Orginal - Hộp 30 viên",
+            "author": "Baby Moby",
+            "price": 368500,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+          },
+          {
+            "id": 47,
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/v/i/vitamin-tong-hop-cho-me-bau-avisure-mama-60-vien-2.jpg",
+            "name": "Vitamin tổng hợp cho mẹ bầu Avisure Mama (60 viên)",
+            "author": "Avisure",
+            "price": 325500,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+          }
+          
+    ],
+    "viewd_product": [
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/b/i/bim-ta-quan-megumi-size-m-50-mieng-cho-be-6-12-kg-1.jpg",
+            "name": "Bỉm - Tã quần Megumi size M 50 miếng (cho bé 6-12 kg)",
+            "author": "Megumi",
+            "price": 260000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-healthy-care-infant-so-1-900g-danh-cho-tre-0-6-thang-1.jpg",
+            "name": "Sữa Healthy Care số 1 (Úc) Infant 900g dành cho trẻ 0 - 6 tháng",
+            "author": "Healthy Care",
+            "price": 540000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-bot-colosbaby-gold-0-800g-1a.jpg",
+            "name": "Sữa bột Colosbaby Gold 0+ 800g tăng cường hệ miễn dịch",
+            "author": "Vitadairy",
+            "price": 555000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-pediasure-uc-hop-850g_2.jpg",
+            "name": "Sữa Pediasure Úc 850g vị vani cho bé 1-10 tuổi",
+            "author": "Abbott",
+            "price": 799000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-hikid-nhap-khau-han-quoc-hop-600g-vi-vani-a.jpg",
+            "name": "Sữa Hikid vị Vani 600g (1 - 9 tuổi)",
+            "author": "ILDONG FOODIS",
+            "price": 520000,
+            "discount": 0,
+            "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
+        },
+        {
+            "img": "https://cdn-v2.kidsplaza.vn/202x202/media/catalog/product/s/u/sua-blackmores-uc-so-3-900g-2.jpg",
+            "name": "Sữa Blackmores số 3 Toddler 900g (>12 tháng)",
+            "author": "Blackmores",
+            "price": 565000,
             "discount": 0,
             "sub": "Giảm 50% tối đa 100K - Trả sau 0% lãi suất"
         }

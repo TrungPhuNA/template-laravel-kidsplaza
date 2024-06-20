@@ -32,7 +32,7 @@ $navbar_bottom = $data_static['navbar-bottom'];
     <div class="navbar navbar-wrap pt-0 pb-2">
         <div class="navbar-top w-100 position-relative">
             <div class="container p-0 navbar-top-content">
-                <div class="row justify-content-between align-items-center px-3 py-3">
+                <div class="row justify-content-between align-items-center px-4 py-3">
                     <div class="col-xl-2 col-md-3 col-lg-3 d-xs-none px-0 cup">
                         <a href="/">
                             <img src="{{ asset('images/Logo_header.png') }}" alt="logo" width="100%" height="auto">
