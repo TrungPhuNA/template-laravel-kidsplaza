@@ -10,7 +10,7 @@
             <div class="item outstan-brand-item cup {{ $brand['class'] }}">
                 <div class="text-center rounded-4 p-2 d-flex align-items-center justify-content-center" style="height:88px;">
                     @if($key !== 6)
-                    <img src="{{ asset('images/brand/' . $brand['img'] ) }}" alt="" width="70" height="70">
+                    <img src="{{ asset('images/brand/' . $brand['img'] ) }}" alt="" width="70" height="auto">
                     @else
                     <i class="bi bi-grid fs-2"></i>
                     @endif

@@ -10,7 +10,7 @@
             
         </div>
     </div>
-    <div class="box-m-top-bottom box-p bg-white rounded-4">
+    <div class="box-m-top-bottom bg-white rounded-4 box-p list-category-product"> 
         <div class="d-md-none-x">
             <div class="d-flex justify-content-between align-items-center">
                 <x-title-frame-web title="Mẹ bầu và sau sinh" :nav="['']" />
@@ -23,7 +23,7 @@
         <div class="row box-m-top-bottom justify-content-center">
             @foreach($products as $key => $product)
             <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6 list-product-item px-0">
-                <div class="p-3">
+                <div class="p-3 p-xs-2">
                     @include('components/product-display',[
                         'product' => $product,
                     ])

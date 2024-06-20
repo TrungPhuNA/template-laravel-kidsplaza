@@ -9,3 +9,8 @@
     border: none !important;
   }
 }
+@media (max-width: 576px) {
+  .list-category-product {
+    padding: 0.5rem !important;
+  }
+}
